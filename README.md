@@ -3,7 +3,7 @@ Randomizes Minecraft recipe results and creates a datapack for use in game.
 
 How to run:
 
-1) place all files in the same folder containing a vanilla datapack (currently not provided)
+1) place all files in the same folder
 2) open command prompt (windows key + R, then run "cmd")
 3) change directory to the one with the files (type "cd " then the File Path name)
 4) start the program by typing "java Randomize"
