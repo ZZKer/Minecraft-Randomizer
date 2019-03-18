@@ -16,14 +16,14 @@ How to install datapack:
 
 
 Current Features:
--All non-color crafting and smelting recipes in item pool
--Seeded random to allow multiple people to play with the same randomization
--Spoiler Log
+ - All non-color crafting and smelting recipes in item pool
+ - Seeded random to allow multiple people to play with the same randomization
+ - Spoiler Log
 
 Missing Features:
--Most color crafting and smelting recipes (banners, stained glass, glass panes, concrete powder, terracotta, and glazed terracotta)
--Logic to prevent softlocks
--GUI
--choice to disable specific recipes
+ - Most color crafting and smelting recipes (banners, stained glass, glass panes, concrete powder, terracotta, and glazed terracotta)
+ - Logic to prevent softlocks
+ - GUI
+ - choice to disable specific recipes
 
 If you have any questions, feel free to contact me on Discord @ ZZKer#1962
