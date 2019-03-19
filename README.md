@@ -1,5 +1,6 @@
 # Minecraft-Randomizer
 Randomizes Minecraft recipe results and creates a datapack for use in game.
+This randomizer is specifically for Minecraft version 1.13. It will not work properly in 1.14 snapshots.
 
 How to run:
 
@@ -16,12 +17,11 @@ How to install datapack:
 
 
 Current Features:
- - All non-color crafting and smelting recipes in item pool
+ - All crafting and smelting recipes in item pool
  - Seeded random to allow multiple people to play with the same randomization
  - Spoiler Log
 
 Missing Features:
- - Most color crafting and smelting recipes (banners, stained glass, glass panes, concrete powder, terracotta, and glazed terracotta)
  - Logic to prevent softlocks
  - GUI
  - choice to disable specific recipes
