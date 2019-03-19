@@ -93,6 +93,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "chest_minecart"));
 		inputs.add(n++, new Input(false, "chiseled_quartz_block"));
 		inputs.add(n++, new Input(false, "chiseled_red_sandstone"));
+		inputs.add(n++, new Input(false, "chiseled_sandstone"));
 		inputs.add(n++, new Input(false, "chiseled_stone_bricks"));
 		inputs.add(n++, new Input(false, "clay"));
 		inputs.add(n++, new Input(false, "clock"));
