@@ -310,7 +310,6 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "purpur_pillar"));
 		inputs.add(n++, new Input(false, "purpur_slab"));
 		inputs.add(n++, new Input(false, "purpur_stairs"));
-		inputs.add(n++, new Input(false, "quartz"));
 		inputs.add(n++, new Input(false, "quartz_block"));
 		inputs.add(n++, new Input(false, "quartz_pillar"));
 		inputs.add(n++, new Input(false, "quartz_slab"));
@@ -416,6 +415,7 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "lime_dye_from_smelting"));
 		inputs.add(n++, new Input(true, "nether_brick"));
 		inputs.add(n++, new Input(true, "popped_chorus_fruit"));
+		inputs.add(n++, new Input(true, "quartz"));
 		inputs.add(n++, new Input(true, "redstone_from_smelting"));
 		inputs.add(n++, new Input(true, "sponge"));
 		inputs.add(n++, new Input(true, "stone"));
