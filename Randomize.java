@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
-import rando.Input;
+import rando.*;
 
 public class Randomize {
 	/* Take list of inputs
@@ -41,17 +41,17 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "acacia_door"));
 		inputs.add(n++, new Input(false, "acacia_fence"));
 		inputs.add(n++, new Input(false, "acacia_fence_gate"));
-		inputs.add(n++, new Input(false, "acacia_planks"));
+		inputs.add(n++, new Input(false, "acacia_planks", "Ap"));	//Ap
 		inputs.add(n++, new Input(false, "acacia_pressure_plate"));
 		inputs.add(n++, new Input(false, "acacia_slab"));
 		inputs.add(n++, new Input(false, "acacia_stairs"));
 		inputs.add(n++, new Input(false, "acacia_trapdoor"));
 		inputs.add(n++, new Input(false, "acacia_wood"));
-		inputs.add(n++, new Input(false, "activator_rail"));
-		inputs.add(n++, new Input(false, "andesite"));
+		inputs.add(n++, new Input(false, "activator_rail", "R9"));	//R9
+		inputs.add(n++, new Input(false, "andesite", "An"));		//An
 		inputs.add(n++, new Input(false, "anvil"));
 		inputs.add(n++, new Input(false, "armor_stand"));
-		inputs.add(n++, new Input(false, "arrow"));
+		inputs.add(n++, new Input(false, "arrow", "Ar"));			//Ar
 		inputs.add(n++, new Input(false, "beacon"));
 		inputs.add(n++, new Input(false, "beetroot_soup"));
 		inputs.add(n++, new Input(false, "birch_boat"));
@@ -59,7 +59,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "birch_door"));
 		inputs.add(n++, new Input(false, "birch_fence"));
 		inputs.add(n++, new Input(false, "birch_fence_gate"));
-		inputs.add(n++, new Input(false, "birch_planks"));
+		inputs.add(n++, new Input(false, "birch_planks", "Bp"));	//Bp
 		inputs.add(n++, new Input(false, "birch_pressure_plate"));
 		inputs.add(n++, new Input(false, "birch_slab"));
 		inputs.add(n++, new Input(false, "birch_stairs"));
@@ -116,10 +116,10 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "chiseled_red_sandstone"));
 		inputs.add(n++, new Input(false, "chiseled_sandstone"));
 		inputs.add(n++, new Input(false, "chiseled_stone_bricks"));
-		inputs.add(n++, new Input(false, "clay"));
+		inputs.add(n++, new Input(false, "clay", "Cy"));			//Cy
 		inputs.add(n++, new Input(false, "clock"));
-		inputs.add(n++, new Input(false, "coal"));
-		inputs.add(n++, new Input(false, "coal_block"));
+		inputs.add(n++, new Input(false, "coal", "Co"));			//Co
+		inputs.add(n++, new Input(false, "coal_block", "Cb"));		//Cb
 		inputs.add(n++, new Input(false, "coarse_dirt"));
 		inputs.add(n++, new Input(false, "cobblestone_slab"));
 		inputs.add(n++, new Input(false, "cobblestone_stairs"));
@@ -129,7 +129,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "conduit"));
 		inputs.add(n++, new Input(false, "cookie"));
 		inputs.add(n++, new Input(false, "cracked_stone_bricks"));
-		inputs.add(n++, new Input(false, "crafting_table"));
+		inputs.add(n++, new Input(false, "crafting_table", "Ct"));	//Ct
 		inputs.add(n++, new Input(false, "cut_red_sandstone"));
 		inputs.add(n++, new Input(false, "cut_sandstone"));
 		inputs.add(n++, new Input(false, "cyan_banner"));
@@ -137,11 +137,11 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "cyan_bed_from_white_bed"));
 		inputs.add(n++, new Input(false, "cyan_carpet"));
 		inputs.add(n++, new Input(false, "cyan_concrete_powder"));
-		inputs.add(n++, new Input(false, "cyan_dye"));
-		inputs.add(n++, new Input(false, "cyan_stained_glass"));
+		inputs.add(n++, new Input(false, "cyan_dye", "Cd"));			//Cd
+		inputs.add(n++, new Input(false, "cyan_stained_glass", "Cg"));	//Cg
 		inputs.add(n++, new Input(false, "cyan_stained_glass_pane"));
-		inputs.add(n++, new Input(false, "cyan_terracotta"));
-		inputs.add(n++, new Input(false, "cyan_wool"));
+		inputs.add(n++, new Input(false, "cyan_terracotta", "Ct"));		//Ct
+		inputs.add(n++, new Input(false, "cyan_wool", "Cw"));			//Cw
 		inputs.add(n++, new Input(false, "dark_oak_boat"));
 		inputs.add(n++, new Input(false, "dark_oak_button"));
 		inputs.add(n++, new Input(false, "dark_oak_door"));
