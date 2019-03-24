@@ -33,48 +33,48 @@ Bp		birch_planks			(0)											0
 		black_bed_from	(white_bed) [+ink]
 		black_carpet	 <black_wool or shears>
 		black_concrete_powder	(crafting_table) [+ink]
-		black_stained_glass	(crafting_table; glass) [+ink]
+Bg		black_stained_glass	(crafting_table; glass) [+ink]
 		black_stained_glass_pane	(crafting_table; black_stained_glass)
-		black_terracotta	(terracotta) [+ink]
-		black_wool		(0) [ink]
-	?	blaze_powder	(nether access; <iron_sword or bow; <arrow or spectral_arrow>)
+Bt		black_terracotta	(terracotta) [+ink]
+Bw		black_wool		(0) [ink]
+Bz	?	blaze_powder	(nether access; <iron_sword or bow; <arrow or spectral_arrow>)
 		blue_banner		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; stick)
 		blue_bed		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; __planks)
 		blue_bed_from	<lapis or iron_pickaxe>
 		blue_carpet		<blue_wool or <lapis or iron_pickaxe>; shears>
 		blue_concrete_powder	(<lapis or iron_pickaxe>; crafting_table)
 		blue_ice		(crafting_table; packed_ice)
-		blue_stained_glass	(<lapis or iron_pickaxe>; crafting_table; glass)
+Ug		blue_stained_glass	(<lapis or iron_pickaxe>; crafting_table; glass)
 		blue_stained_glass_pane	(blue_stained_glass; crafting_table)
-		blue_terracotta	(<lapis or iron_pickaxe>; crafting_table; terracotta)
-		blue_wool		<lapis or iron_pickaxe>
-		bone_block		(bone_meal; crafting_table)
-		bone_meal		(bone; <stone_sword or bow; <arrow or spectral_arrow>>)
-		bone_meal_from_bone_block	(bone_block)
-		book			(paper) [+leather]
-		bookshelf		(book; crafting_table; __planks)
-		bow				(crafting_table; stick; <string or wooden_sword>)
-		bowl			(crafting_table; __planks)
+Ut		blue_terracotta	(<lapis or iron_pickaxe>; crafting_table; terracotta)
+Uw		blue_wool		<lapis or iron_pickaxe>
+Bb		bone_block		(bone_meal; crafting_table)
+Bm		bone_meal		(bone; <stone_sword or bow; <arrow or spectral_arrow>>)
+Bm		bone_meal_from_bone_block	(bone_block)
+Bk		book			(paper) [+leather]
+Bf		bookshelf		(book; crafting_table; __planks)
+Bo		bow				(crafting_table; stick; <string or wooden_sword>)
+Bl		bowl			(crafting_table; __planks)
 		bread			(crafting_table; <hoe or wheat>)
-	?	brewing_stand
+Bs	?	brewing_stand
 		brick_slab		(bricks; crafting_table)
 		brick_stairs	(bricks; crafting_table)
-		bricks			(brick)
+Br		bricks			(brick)
 		brown_banner	(<brown_wool or shears>; crafting_table; stick)
 		brown_bed		(<brown_wool or shears>; crafting_table; __planks)
 		brown_bed_from	(white_bed)
 		brown_carpet	<brown_wool or shears>
 		brown_concrete_powder	(crafting_table)
-		brown_stained_glass	(crafting_table; glass)
+Ng		brown_stained_glass	(crafting_table; glass)
 		brown_stained_glass_pane	(brown_stained_glass; crafting_table)
-		brown_terracotta	(crafting_table; terracotta)
-		brown_wool		(0)
-		bucket			(crafting_table; iron_ingot)
+Nt		brown_terracotta	(crafting_table; terracotta)
+Nw		brown_wool		(0)
+Bu		bucket			(crafting_table; iron_ingot)
 		cake			(bucket; crafting_table; sugar; <hoe or wheat>)
 		carrot_on_a_stick	(fishing_rod)
 		cauldron		(crafting_table; iron_ingot)
-		chest			(crafting_table; __planks)
-		chest_minecart	<any rail; chest_minecart or (chest; <minecart or any rail; <furnace_minecart or hopper_minecart or tnt_minecart>>)>
+Ch		chest			(crafting_table; __planks)
+Cm		chest_minecart	<any rail; chest_minecart or (chest; <minecart or any rail; <furnace_minecart or hopper_minecart or tnt_minecart>>)>
 	?	chiseled_quartz_block
 	?	chiseled_red_sandstone
 	?	chiseled_sandstone
@@ -120,7 +120,7 @@ Da	?	dark_prismarine
 	?	dark_prismarine_slab	(crafting_table; dark_prismarine)
 	?	dark_prismarine_stairs	(crafting_table; dark_prismarine)
 	?	daylight_detector		(crafting_table; glass)
-Dr	?	detector_rail
+R9	?	detector_rail
 Di		diamond			(diamond_block)
 		diamond_axe		(crafting_table; stick; <diamond or iron_pickaxe; torch>)
 Db		diamond_block	(crafting_table; <diamond or iron_pickaxe; torch>)
@@ -307,9 +307,9 @@ Pc	?	packed_ice
 	?	painting
 Pp		paper			(crafting_table)
 	-	pink_bed
-Kd		pink_dye_from_peony			(0)
-Kd		pink_dye_from_pink_tulip	(0)
-Kd		pink_dye_from_red_bonemeal	(red_dye; bone_meal)
+Ky		pink_dye_from_peony			(0)
+Ky		pink_dye_from_pink_tulip	(0)
+Ky		pink_dye_from_red_bonemeal	(red_dye; bone_meal)
 Kg	-	pink_stained_glass
 Kt	-	pink_terracotta
 Kw	-	pink_wool
@@ -445,61 +445,191 @@ Ii		iron_ingot					(furnace; stone_pickaxe)
 In		iron_nugget_from_smelting	(furnace; iron_<pickaxe or axe or shovel or hoe or sword or chestplate or leggings or boots>)
 Ll	?	lapis_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
 Ld		lime_dye_from_smelting	(furnace)
-N0		nether_brick			(furnace; nether access)
+Nb		nether_brick			(furnace; nether access)
 		popped_chorus_fruit		(furnace; postdragon access)
 Qz	?	quartz
 Re		redstone_from_smelting	(book; enchanting_table; furnace; iron_pickaxe)
-Ng	?	sponge					(defeat gardians... so...)
+Np	?	sponge					(defeat gardians... so...)
 St		stone					(furnace; <wooden_pickaxe or cobblestone>)
 Tc	?	terracotta
 
-		//Locations
-Na	?	nether access					(<diamond_pickaxe or bucket>; <flint_and_steel or firecharge; dispencer>)
-Ea	?	end access						(ender_eye; stone_pickaxe; torch)
-Zz	?	post-game/ post-dragon access
-Wi	?	wither							(nether access; iron_sword; enchanting_table; <lapis or iron_pickaxe; torch>) den_sword			(crafting_table; stick; __planks)
-		writable_book			(book) [+feather; ink]
-	-	yellow_bed				(crafting_table; yellow_wool; __planks)
-Yd		yellow_dye_from_dandelion	(0)
-Yd		yellow_dye_from_sunflower	(0)
-Yg	-	yellow_stained_glass
-Yt	-	yellow_terracotta
-Yw	-	yellow_wool				(yellow_dye) [+white_wool]
-		
-		//Smelting Recipes
-			furnace = <furnace or any rail; furnace_minecart>
-		baked_potato			(furnace)
-B0		brick					(furnace) [+clay]
-Cc		cactus_green			(furnace)
-Ca		charcoal				(furnace)
-Co	?	coal_from_smelting		(book; enchanting_table; <lapis_lazuli or iron_pickaxe>; furnace; wooden_pickaxe)
-		cooked_beef				(furnace or flint_and_steel)
-		cooked_chicken			(furnace or flint_and_steel)
-		cooked_cod				(fishing_rod; furnace)
-		cooked_mutton			(furnace or flint_and_steel)
-		cooked_porkchop			(furnace or flint_and_steel)
-		cooked_rabbit			(furnace or flint_and_steel)
-		cooked_salmon			(fishing_rod; furnace)
-Di		diamond_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
-Kd	?	dried_kelp_from_smelting	(furnace)
-Em		emerald_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
-Gs		glass					(furnace)
-Gi		gold_ingot				(furnace; iron_pickaxe)
-Gn		gold_nugget_from_smelting	(furnace; golden_<pickaxe or axe or shovel or hoe or sword or chestplate or leggings or boots>)
-Ii		iron_ingot					(furnace; stone_pickaxe)
-In		iron_nugget_from_smelting	(furnace; iron_<pickaxe or axe or shovel or hoe or sword or chestplate or leggings or boots>)
-Ll	?	lapis_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
-Ld		lime_dye_from_smelting	(furnace)
-N0		nether_brick			(furnace; nether access)
-		popped_chorus_fruit		(furnace; postdragon access)
-Qz	?	quartz
-Re		redstone_from_smelting	(book; enchanting_table; furnace; iron_pickaxe)
-Ng	?	sponge					(defeat gardians... so...)
-St		stone					(furnace; <wooden_pickaxe or cobblestone>)
-Tc	?	terracotta
-
-		//Locations
+		//Shortened Locations
 Na	?	nether access					(<diamond_pickaxe or bucket>; <flint_and_steel or firecharge; dispencer>)
 Ea	?	end access						(ender_eye; stone_pickaxe; torch)
 Zz	?	post-game/ post-dragon access
 Wi	?	wither							(nether access; iron_sword; enchanting_table; <lapis or iron_pickaxe; torch>)
+_p		any planks						"<Ap-Bp-Dp-Op-Jp-Sp>"
+
+
+
+
+
+
+Ad		gray_dye
+Ag		gray_stained_glass
+An		andesite
+Ap		acacia_planks
+Ar		arrow
+At		gray_terracotta
+Aw		gray_wool
+Ax		wooden_axe
+Bb		bone_block
+Bf		bookshelf
+Bg		black_stained_glass
+Bk		book
+Bl		bowl
+Bm		bone_meal
+Bo		bow
+Bp		birch_planks
+Br		bricks
+Bs		brewing_stand
+Bt		black_terracotta
+Bu		bucket
+Bw		black_wool
+Bz		blaze_powder
+B0		brick
+Ca		charcoal
+Cb		coal_block
+Cc		cactus_green
+Cd		cyan_dye
+Cg		cyan_stained_glass
+Ch		chest
+Cm		chest_minecart
+Co		coal
+Cr		cyan_terracotta
+Ct		crafting_table
+Cw		cyan_wool
+Cy		clay
+Da		dark_prismarine
+Db		diamond_block
+Di		diamond
+Do		diorite
+Dp		dark_oak_planks
+Ds		diamond_sword
+Dx		diamond_pickaxe
+D3		dispenser
+Eb		emerald_block
+Ec		ender_chest
+Ee		ender_eye
+Eg		green_stained_glass
+Em		emerald
+Er		green_terracotta
+Et		enchanting_table
+Ew		green_wool
+Fc		fire_charge
+Fm		furnace_minecart
+Fr		fishing_rod
+Fs		flint_and_steel
+Fu		furnace
+Ga		granite
+Gb		gold_block
+Gi		gold_ingot
+Gn		gold_nugget
+Gs		glass
+Gt		glowstone
+G9		useless gold items that can be smelted
+Hb		hay_block
+Hm		hopper_minecart
+Ho		wooden_hoe
+Hp		hopper
+Ib		iron_block
+Ii		iron_ingot
+In		iron_nugget
+Is		iron_sword
+Ix		iron_pickaxe
+I9		useless iron items that can be smelted
+Jp		jungle_planks
+Kb		dried_kelp_block
+Kd		dried_kelp
+Kg		pink_stained_glass
+Kt		pink_terracotta
+Kw		pink_wool
+Ky		pink_dye
+Lb		lapis_block
+Ld		lime_dye
+Lg		lime_stained_glass
+Ll		lapis_lazuli
+Lr		leather
+Lt		lime_terracotta
+Lw		lime_wool
+Mb		mossy_cobblestone
+Mc		minecart
+Md		magenta_dye
+Mg		magenta_stained_glass
+Ml		melon
+Mt		magenta_terracotta
+Mw		magenta_wool
+Nb		nether_brick
+Ng		brown_stained_glass
+Np		sponge
+Ns		nether_bricks
+Nt		brown_terracotta
+Nw		brown_wool
+Op		oak_planks
+Od		orange_dye
+Og		orange_stained_glass
+Ot		orange_terracotta
+Ow		orange_wool
+Pb		prismarine_bricks
+Pc		packed_ice
+Pd		purple_dye
+Pg		purple_stained_glass
+Pi		piston
+Pp		paper
+Pr		prismarine
+Pt		purple_terracotta
+Pu		purpur_block
+Pw		purple_wool
+Qb		quartz_block
+Qz		quartz
+Rd		red_dye
+Re		redstone
+Rg		red_stained_glass
+Rk		redstone_block
+Rp		repeater
+Rr		redstone_torch
+Rs		red_sandstone
+Rt		red_terracotta
+Rw		red_wool
+R9		any rails
+Sa		spectral_arrow
+Sb		stone_bricks
+Sd		stone_sword
+Sg		sugar
+Sh		shears
+Sk		stick
+Sl		slime_ball
+Sm		slime_block
+Sp		spruce_planks
+Ss		sandstone
+St		stone
+Sw		snow_block
+Sx		stone_pickaxe
+Tc		terracotta
+Th		tripwire_hook
+Tm		tnt_minecart
+To		torch
+Tt		tnt
+Ud		light_blue_dye
+Ug		blue_stained_glass
+Uo		light_blue_wool	
+Ur		light_blue_terracotta
+Us		light_blue_stained_glass
+Ut		blue_terracotta
+Uw		blue_wool
+Wd		wooden_sword
+Wg		white_stained_glass
+Wh		wheat
+Ws		wooden_shovel
+Wt		white_terracotta
+Ww		white_wool_from_string
+Wx		wooden_pickaxe
+Xs		shulker_box
+Yd		yellow_dye
+Yg		yellow_stained_glass
+Yt		yellow_terracotta
+Yw		yellow_wool
+Zd		light_gray_dye
+Zg		light_gray_stained_glass
+Zt		light_gray_terracotta
+Zw		light_gray_wool
