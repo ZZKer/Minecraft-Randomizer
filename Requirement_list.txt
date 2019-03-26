@@ -6,16 +6,16 @@
 		acacia_fence_gate		(acacia_planks; crafting_table; stick)		"ApCtSk"
 Ap		acacia_planks			(0)											0
 		acacia_pressure_plate	(acacia_planks)								"Ap"
-		acacia_slab		(acacia_planks; crafting_table)						"ApCt"
+A6		acacia_slab		(acacia_planks; crafting_table)						"ApCt"
 		acacia_stairs	(acacia_planks; crafting_table)						"ApCt"
 		acacia_trapdoor	(acacia_planks; crafting_table)						"ApCt"
 		acacia_wood		(0)													0
-R9		activator_rail	(crafting_table; iron_ingot; redstone_torch; stick)	
+R9		activator_rail	(crafting_table; iron_ingot; redstone_torch; stick)	"CtIiRrSk"
 An		andesite		(wooden_pickaxe)									"Wx"
 		anvil			(crafting_table; iron_block; iron_ingot)			"CtIbIi"
-	?	armor_stand		
+		armor_stand		(crafting_table; stick; stone_slab)					"CtSkSo"
 Ar		arrow			(crafting_table; stick) [+flint; feather]			"CtSk"
-	?	beacon
+	?	beacon			(crafting_table; glass; wither; <diamond_pickaxe or ender_chest; wooden_pickaxe)	???
 		beetroot_soup	(bowl; crafting_table)								"BlCt"
 		birch_boat		(birch_planks; crafting_table)						"BpCt"
 		birch_button	(birch_planks)										"Bp"
@@ -24,320 +24,349 @@ Ar		arrow			(crafting_table; stick) [+flint; feather]			"CtSk"
 		birch_fence_gate		(birch_planks; crafting_table; stick)		"BpCtSk"
 Bp		birch_planks			(0)											0
 		birch_pressure_plate	(birch_planks)								"Bp"
-		birch_slab		(birch_planks; crafting_table)						"BpCt"
+B6		birch_slab		(birch_planks; crafting_table)						"BpCt"
 		birch_stairs	(birch_planks; crafting_table)						"BpCt"
 		birch_trapdoor	(birch_planks; crafting_table)						"BpCt"
 		birch_wood		(0)													0
-		black_banner	(crafting_table; stick; <black_wool or shears>)		"CtSk<Bw-Sh>"
-		black_bed		(crafting_table; __planks; <black_wool or shears>)	"Ct_p<Bw-Sh>"
-		black_bed_from	(white_bed) [+ink]
-		black_carpet	 <black_wool or shears>
-		black_concrete_powder	(crafting_table) [+ink]
-Bg		black_stained_glass	(crafting_table; glass) [+ink]
-		black_stained_glass_pane	(crafting_table; black_stained_glass)
-Bt		black_terracotta	(terracotta) [+ink]
-Bw		black_wool		(0) [ink]
-Bz	?	blaze_powder	(nether access; <iron_sword or bow; <arrow or spectral_arrow>)
-		blue_banner		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; stick)
-		blue_bed		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; __planks)
-		blue_bed_from	<lapis or iron_pickaxe>
-		blue_carpet		<blue_wool or <lapis or iron_pickaxe>; shears>
-		blue_concrete_powder	(<lapis or iron_pickaxe>; crafting_table)
-		blue_ice		(crafting_table; packed_ice)
-Ug		blue_stained_glass	(<lapis or iron_pickaxe>; crafting_table; glass)
-		blue_stained_glass_pane	(blue_stained_glass; crafting_table)
-Ut		blue_terracotta	(<lapis or iron_pickaxe>; crafting_table; terracotta)
-Uw		blue_wool		<lapis or iron_pickaxe>
-Bb		bone_block		(bone_meal; crafting_table)
-Bm		bone_meal		(bone; <stone_sword or bow; <arrow or spectral_arrow>>)
-Bm		bone_meal_from_bone_block	(bone_block)
-Bk		book			(paper) [+leather]
-Bf		bookshelf		(book; crafting_table; __planks)
-Bo		bow				(crafting_table; stick; <string or wooden_sword>)
-Bl		bowl			(crafting_table; __planks)
-		bread			(crafting_table; <hoe or wheat>)
-Bs	?	brewing_stand
-		brick_slab		(bricks; crafting_table)
-		brick_stairs	(bricks; crafting_table)
-Br		bricks			(brick)
-		brown_banner	(<brown_wool or shears>; crafting_table; stick)
-		brown_bed		(<brown_wool or shears>; crafting_table; __planks)
-		brown_bed_from	(white_bed)
-		brown_carpet	<brown_wool or shears>
-		brown_concrete_powder	(crafting_table)
-Ng		brown_stained_glass	(crafting_table; glass)
-		brown_stained_glass_pane	(brown_stained_glass; crafting_table)
-Nt		brown_terracotta	(crafting_table; terracotta)
-Nw		brown_wool		(0)
-Bu		bucket			(crafting_table; iron_ingot)
-		cake			(bucket; crafting_table; sugar; <hoe or wheat>)
-		carrot_on_a_stick	(fishing_rod)
-		cauldron		(crafting_table; iron_ingot)
-Ch		chest			(crafting_table; __planks)
-Cm		chest_minecart	<any rail; chest_minecart or (chest; <minecart or any rail; <furnace_minecart or hopper_minecart or tnt_minecart>>)>
-	?	chiseled_quartz_block
-	?	chiseled_red_sandstone
-	?	chiseled_sandstone
-	?	chiseled_stone_bricks
-Cy		clay			(0)
-		clock			(crafting_table; gold_ingot; <redstone or iron_pickaxe; torch>)
-Co		coal			(coal_block)
-Cb		coal_block		(crafting_table; <wooden_pickaxe or coal>)
-		coarse_dirt		(0)
-		cobblestone_slab	(crafting_table; wooden_pickaxe)
-		cobblestone_stairs	(crafting_table; wooden_pickaxe)
-		cobblestone_wall	(crafting_table; wooden_pickaxe)
-	?	comparator
-		compass			(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>)
+		black_banner	(crafting_table; stick; <black_wool or shears>)		"CtSk(Bw|Sh)"
+		black_bed		(crafting_table; __planks; <black_wool or shears>)	"Ct_p(Bw|Sh)"
+		black_bed_from	(white_bed) [+ink]									"Wb"
+		black_carpet	 <black_wool or shears>								"Bw|Sh"
+		black_concrete_powder	(crafting_table) [+ink]						"Ct"
+Bg		black_stained_glass	(crafting_table; glass) [+ink]					"CtGs"
+		black_stained_glass_pane	(crafting_table; black_stained_glass)	"CtBg"
+Bt		black_terracotta	(terracotta) [+ink]								"Tc"
+Bw		black_wool		(0) [ink]											0
+Bz	?	blaze_powder	(nether access; <iron_sword or bow; any arrow>)		???
+		blue_banner		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; stick)		"(Uw|(Ll|IxTo)Sh)CtSk"
+		blue_bed		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; __planks)	"(Uw|((Ll|IxTo)Sh))Ct_p"
+		blue_bed_from	(<lapis or iron_pickaxe>; white_bed)				"Wb(Ll|IxTo)"
+		blue_carpet		<blue_wool or <lapis or iron_pickaxe>; shears>		"Uw|(Ll|IxTo)Sh"
+		blue_concrete_powder	(<lapis or iron_pickaxe>; crafting_table)	"Ct(Ll|IxTo)"
+		blue_ice		(crafting_table; packed_ice)						"CtPc"
+Ug		blue_stained_glass	(<lapis or iron_pickaxe>; crafting_table; glass)"CtGs(Ll|IxTo)"
+		blue_stained_glass_pane	(blue_stained_glass; crafting_table)		"CtUg"
+Ut		blue_terracotta	(<lapis or iron_pickaxe>; crafting_table; terracotta)"CtTc(Ll|IxTo)"
+Uw		blue_wool		<lapis or iron_pickaxe>								"Ll|IxTo"
+Bb		bone_block		(bone_meal; crafting_table)							"BmCt"
+Bm		bone_meal		(bone; <stone_sword or bow; <arrow or spectral_arrow>>)"Sd|Bo(Ar|Sa)"
+Bm		bone_meal_from_bone_block	(bone_block)							"Bb"
+Bk		book			(paper) [+leather]									"Pp"
+Bf		bookshelf		(book; crafting_table; __planks)					"BkCt_p"
+Bo		bow				(crafting_table; stick; <string or wooden_sword>)	"CtSkWd"
+Bl		bowl			(crafting_table; __planks)							"Ct_p"
+		bread			(crafting_table; <hoe or wheat>)					"Ct(Ho|Wh)"
+Bs	?	brewing_stand	(crafting_table; wooden_pickaxe; nether access->blaze rod)
+		brick_slab		(bricks; crafting_table)							"BrCt"
+		brick_stairs	(bricks; crafting_table)							"BrCt"
+Br		bricks			(brick)												"B0"
+		brown_banner	(<brown_wool or shears>; crafting_table; stick)		"CtSk(Nw|Sh)"
+		brown_bed		(<brown_wool or shears>; crafting_table; __planks)	"(Nw|Sh)Ct_p"
+		brown_bed_from	(white_bed)											"Wb"
+		brown_carpet	<brown_wool or shears>								"Nw|Sh"
+		brown_concrete_powder	(crafting_table)							"Ct"
+Ng		brown_stained_glass	(crafting_table; glass)							"CtGs"
+		brown_stained_glass_pane	(brown_stained_glass; crafting_table)	"CtNg"
+Nt		brown_terracotta	(crafting_table; terracotta)					"CtTc"
+Nw		brown_wool		(0)													0
+Bu		bucket			(crafting_table; iron_ingot)						"CtIi"
+		cake			(bucket; crafting_table; sugar; <hoe or wheat>)		"BuCtSg(Ho|Wh)"
+		carrot_on_a_stick	(fishing_rod)									"Fr"
+		cauldron		(crafting_table; iron_ingot)						"CtIi"
+Ch		chest			(crafting_table; __planks)							"Ct_p"
+Cm		chest_minecart	<any rail; chest_minecart or (chest; <minecart or any rail; <furnace_minecart or hopper_minecart or tnt_minecart>>)>	"R9Cm|Ch(Mc|R9(Fm|Hm|Tm))"
+		chiseled_quartz_block	(quartz_slab)								"Qs"
+		chiseled_red_sandstone	(red_sandstone_slab)						"Ra"
+		chiseled_sandstone		(sandstone_slab)							"Sn"
+		chiseled_stone_bricks	(stone_brick_slab)							"Sr"
+Cy		clay			(0)													0
+		clock			(crafting_table; gold_ingot; <redstone or iron_pickaxe; torch>)	"CtGi(Re|IxTo)"
+Co		coal			(coal_block)										"Cb"
+Cb		coal_block		(crafting_table; <wooden_pickaxe or coal>)			"Ct(Wx|Co)"
+		coarse_dirt		(0)													0
+		cobblestone_slab	(crafting_table; wooden_pickaxe)				"CtWx"
+		cobblestone_stairs	(crafting_table; wooden_pickaxe)				"CtWx"
+		cobblestone_wall	(crafting_table; wooden_pickaxe)				"CtWx"
+		comparator		(crafting_table; redstone_torch; <quartz or nether access>; <stone or enchanting_table; <lapis; wooden_pickaxe or iron_pickaxe>>	"CtQzRr(St|Et(LlWx|IxTo))"?
+Cp		compass			(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>)	"CtIi(Re|IxTo)"
 	?	conduit
-		cookie			(crafting_table; <hoe or wheat>)
-	?	cracked_stone_bricks
-Ct		crafting_table	(__planks)
-	?	cut_red_sandstone
-	?	cut_sandstone
-		cyan_banner		(crafting_table; <cyan_wool or cyan_dye; shears>; stick)
-		cyan_bed		(crafting_table; <cyan_wool or cyan_dye; shears>; __planks)
-		cyan_bed_from	(cyan_dye)
-		cyan_carpet		<cyan_wool or cyan_dye; shears>
-		cyan_concrete_powder	(crafting_table; cyan_dye)
-Cd		cyan_dye				(0)
-Cg		cyan_stained_glass		(crafting_table; cyan_dye; glass)
-		cyan_stained_glass_pane	(crafting_table; cyan_stained_glass)
-Cr		cyan_terracotta	(crafting_table; cyan_dye; terracotta)
-Cw		cyan_wool		(cyan_dye)
-		dark_oak_boat	(crafting_table; dark_oak_planks)
-		dark_oak_button	(dark_oak_planks)
-		dark_oak_door	(crafting_table; dark_oak_planks)
-		dark_oak_fence	(crafting_table; dark_oak_planks; stick)
-		dark_oak_fence_gate	(crafting_table; dark_oak_planks; stick)
-Dp		dark_oak_planks		(0)
-		dark_oak_pressure_plate	(dark_oak_planks)
-		dark_oak_slab		(crafting_table; dark_oak_planks)
-		dark_oak_stairs		(crafting_table; dark_oak_planks)
-		dark_oak_trapdoor	(crafting_table; dark_oak_planks)
-		dark_oak_wood		(0)
+		cookie			(crafting_table; <hoe or wheat>)					"Ct(Ho|Wh)"
+Ct		crafting_table	(__planks)											"_p"
+		cut_red_sandstone	(red_sandstone)									"Rs"
+		cut_sandstone		(sandstone or wooden_pickaxe)					"Ss|Wx"
+		cyan_banner		(crafting_table; <cyan_wool or cyan_dye; shears>; stick)	"CtSk(Cw|CdSh)"
+		cyan_bed		(crafting_table; <cyan_wool or cyan_dye; shears>; __planks)	"Ct(Cw|CdSh)_p"
+		cyan_bed_from	(cyan_dye; white_bed)								"CdWb"
+		cyan_carpet		<cyan_wool or cyan_dye; shears>						"Cw|CdSh"
+		cyan_concrete_powder	(crafting_table; cyan_dye)					"CdCt"
+Cd		cyan_dye				(0)											0
+Cg		cyan_stained_glass		(crafting_table; cyan_dye; glass)			"CdCtGs"
+		cyan_stained_glass_pane	(crafting_table; cyan_stained_glass)		"CgCt"
+Cr		cyan_terracotta	(crafting_table; cyan_dye; terracotta)				"CdCtTc"
+Cw		cyan_wool		(cyan_dye)											"Cd"
+		dark_oak_boat	(crafting_table; dark_oak_planks)					"CtDp"
+		dark_oak_button	(dark_oak_planks)									"Dp"
+		dark_oak_door	(crafting_table; dark_oak_planks)					"CtDp"
+		dark_oak_fence	(crafting_table; dark_oak_planks; stick)			"CtDpSk"
+		dark_oak_fence_gate	(crafting_table; dark_oak_planks; stick)		"CtDpSk"
+Dp		dark_oak_planks		(0)												0
+		dark_oak_pressure_plate	(dark_oak_planks)							"Dp"
+D6		dark_oak_slab		(crafting_table; dark_oak_planks)				"CtDp"
+		dark_oak_stairs		(crafting_table; dark_oak_planks)				"CtDp"
+		dark_oak_trapdoor	(crafting_table; dark_oak_planks)				"CtDp"
+		dark_oak_wood		(0)												0
 Da	?	dark_prismarine
-	?	dark_prismarine_slab	(crafting_table; dark_prismarine)
-	?	dark_prismarine_stairs	(crafting_table; dark_prismarine)
-	?	daylight_detector		(crafting_table; glass)
-R9	?	detector_rail
-Di		diamond			(diamond_block)
-		diamond_axe		(crafting_table; stick; <diamond or iron_pickaxe; torch>)
-Db		diamond_block	(crafting_table; <diamond or iron_pickaxe; torch>)
-		diamond_boots	(crafting_table; <diamond or iron_pickaxe; torch>)
-		diamond_chestplate	(crafting_table; <diamond or iron_pickaxe; torch>)
-		diamond_helmet		(crafting_table; <diamond or iron_pickaxe; torch>)
-		diamond_hoe			(crafting_table; stick; <diamond or iron_pickaxe; torch>)
-		diamond_leggings	(crafting_table; <diamond or iron_pickaxe; torch>)
-Dx		diamond_pickaxe	(crafting_table; stick; <diamond or iron_pickaxe; torch>)
-		diamond_shovel	(crafting_table; stick; <diamond or iron_pickaxe; torch>)
-Ds		diamond_sword	(crafting_table; stick; <diamond or iron_pickaxe; torch>)
-Do		diorite			(wooden_pickaxe; quartz)
-D3		dispenser		(bow; crafting_table; <redstone or iron_pickaxe; torch>)
-Kd		dried_kelp		(dried_kelp_block)
-Kb		dried_kelp_block	(crafting_table; dried_kelp)
-		dropper				(<cobblestone or wooden_pickaxe>; crafting_table; <redstone or iron_pickaxe; torch>)
-Em		emerald				(emerald_block)
-Eb		emerald_block		(crafting_table; <emerald or iron_pickaxe; torch>)
-Et		enchanting_table	(book; crafting_table; diamond_pickaxe; torch)
-	?	end_crystal
-	?	end_rod
-		end_stone_bricks	(wooden_pickaxe; end access)
-Ec		ender_chest		(crafting_table; diamond_pickaxe; ender_eye)
-Ee	?	ender_eye		(blaze_powder; iron_sword)
-	?	fermented_spider_eye
-Fc	?	fire_charge
-Fr		fishing_rod		(crafting_table; stick; <string or wooden_sword>)
-Fs		flint_and_steel	(iron_ingot) [+flint]
-		flower_pot		(crafting_table; brick)
-Fu		furnace			(crafting_table; <cobblestone or wooden_pickaxe>)
-Fm		furnace_minecart	<any rail; furnace_minecart or (furnace; <minecart or <rail or detector_rail or powered_rail>; <chest_minecart or hopper_minecart or tnt_minecart>>)>
-		glass_bottle	(crafting_table; glass)
-		glass_pane		(crafting_table; glass)
-	?	glistering_melon_slice
-Gt		glowstone		<nether access or glowstone>
-Gb		gold_block		(crafting_table; gold_ingot)
-Gi		gold_ingot_from_gold_block	(gold_block)
-Gi		gold_ingot_from_nuggets		(crafting_table; gold_nugget)
-Gn		gold_nugget		(gold_ingot)
-		golden_apple	(crafting_table; gold_ingot) [+apple]
-G9		golden_axe		(crafting_table; gold_ingot; stick)
-G9		golden_boots	(crafting_table; gold_ingot)
-		golden_carrot	(crafting_table; gold_nugget)
-G9		golden_chestplate	(crafting_table; gold_ingot)
-G9		golden_helmet	(crafting_table; gold_ingot)
-G9		golden_hoe		(crafting_table; gold_ingot; stick)
-G9		golden_leggings	(crafting_table; gold_ingot)
-G9		golden_pickaxe	(crafting_table; gold_ingot; stick)
-G9		golden_shovel	(crafting_table; gold_ingot; stick)
-G9		golden_sword	(crafting_table; gold_ingot; stick)
-Ga		granite			(<diorite or wooden_pickaxe>; quartz)
-		gray_banner		(crafting_table; stick; <gray_wool or gray_dye; shears>)
-		gray_bed		(crafting_table; __planks; <gray_wool or gray_dye; shears>)
-		gray_bed_from	(gray_dye; white_bed)
-		gray_carpet		<gray_wool or gray_dye; shears>
-		gray_concrete_powder	(crafting_table; gray_dye)
-Ad		gray_dye				(bone_meal) [+ink]
-Ag		gray_stained_glass		(crafting_table; glass; gray_dye)
-		gray_stained_glass_pane	(crafting_table; gray_stained_glass)
-At		gray_terracotta	(crafting_table; gray_dye; terracotta)
-Aw		gray_wool		(gray_dye) [+white_wool]
-		green_banner	(crafting_table; stick; <green_wool or cactus_green; shears>)
-		green_bed		(crafting_table; <green_wool or cactus_green; shears>; __planks)
-		green_bed_from	(cactus_green; white_bed)
-		green_carpet	<green_wool or cactus_green; shears>
-		green_concrete_powder	(crafting_table; cactus_green)
-Eg		green_stained_glass		(crafting_table; cactus_green; glass)
-		green_stained_glass_pane	(crafting_table; green_stained_glass)
-Er		green_terracotta	(cactus_green; terracotta)
-Ew		green_wool			(cactus_green) [+white_wool]
-Hb		hay_block			(crafting_table; <hoe or wheat>)
-		heavy_weighted_pressure_plate	(iron_ingot)
-Hp		hopper			(chest; crafting_table; iron_ingot)
-Hm		hopper_minecart	<any rail; hopper_minecart or (hopper; <minecart or any rail; <chest_minecart or furnace_minecart or tnt_minecart>>)>
-I9		iron_axe		(crafting_table; iron_ingot; stick)
-		iron_bars		(crafting_table; iron_ingot)
-Ib		iron_block		(crafting_table; iron_ingot)
-I9		iron_boots		(crafting_table; iron_ingot)
-I9		iron_chestplate	(crafting_table; iron_ingot)
-		iron_door		(crafting_table; iron_ingot)
-I9		iron_helmet		(crafting_table; iron_ingot)
-I9		iron_hoe		(crafting_table; iron_ingot; stick)
-Ii		iron_ingot_from_iron_block	(iron_block)
-Ii		iron_ingot_from_nuggets		(crafting_table; iron_nugget)
-I9		iron_leggings	(crafting_table; iron_ingot)
-In		iron_nugget		(iron_ingot)
-Ix		iron_pickaxe	(crafting_table; iron_ingot; stick)
-I9		iron_shovel		(crafting_table; iron_ingot; stick)
-Is		iron_sword		(crafting_table; iron_ingot; stick)
-		iron_trapdoor	(iron_ingot)
-	?	item_frame		(crafting_table; stick)
-??		jack_o_lantern	(shears; torch)
-		jukebox			(crafting_table; <diamond or iron_pickaxe; torch>; __planks)
-		jungle_boat		(crafting_table; jungle_planks)
-		jungle_button	(jungle_planks)
-		jungle_door		(crafting_table; jungle_planks)
-		jungle_fence	(crafting_table; jungle_planks; stick)
-		jungle_fence_gate	(crafting_table; jungle_planks; stick)
-Jp		jungle_planks		(0)
-		jungle_pressure_plate	(jungle_planks)
-		jungle_slab		(crafting_table; jungle_planks)
-		jungle_stairs	(crafting_table; jungle_planks)
-		jungle_trapdoor	(crafting_table; jungle_planks)
-		jungle_wood		(0)
-		ladder			(crafting_table; stick)
-Lb		lapis_block		(crafting_table; <lapis or iron_pickaxe; torch>)
-Ll		lapis_lazuli	(lapis_block)
-		lead			(crafting_table; <wooden_sword or string; slime_ball>)
-Lr		leather			(0)
-		leather_boots	(crafting_table; <hoe or wheat or leather>)
-		leather_chestplate	(crafting_table; <hoe or wheat or leather>)
-		leather_helmet		(crafting_table; <hoe or wheat or leather>)
-		leather_leggings	(crafting_table; <hoe or wheat or leather>)
-		lever				(<cobblestone or wooden_pickaxe>; stick)
-		light_blue_banner	(crafting_table; stick; <light_blue_wool or light_blue_dye; shears>)
-		light_blue_bed		(crafting_table; __planks; <light_blue_wool or light_blue_dye; shears>)
-		light_blue_bed_from	(light_blue_dye; white_bed)
-		light_blue_carpet	<light_blue_wool or light_blue_dye; shears>
-		light_blue_concrete_powder		(crafting_table; light_blue_dye)
-Ud		light_blue_dye_from_blue_orchid	(0)
-Ud		light_blue_dye_from_lapis_bonemeal	(<lapis or iron_pickaxe; torch>; bone_meal)
-Us		light_blue_stained_glass		(crafting_table; glass; light_blue_dye)
-		light_blue_stained_glass_pane	(crafting_table; light_blue_stained_glass)
-Ur		light_blue_terracotta	(crafting_table; light_blue_dye; terracotta)
-Uo		light_blue_wool			(light_blue_dye) [+white_wool]
-	-	light_gray_bed
-Zd		light_gray_dye_from_azure_bluet		(0)
-Zd		light_gray_dye_from_gray_bonemeal	(gray_dye; bone_meal)
-Zd		light_gray_dye_from_ink_bonemeal	(bone_meal) [+ink]
-Zd		light_gray_dye_from_oxeye_daisy		(0)
-Zd		light_gray_dye_from_white_tulip		(0)
-Zg	-	light_gray_stained_glass
-Zt	-	light_gray_terracotta
-Zw	-	light_gray_wool
-		light_weighted_pressure_plate	(gold_ingot)
-	-	lime_bed
-Ld		lime_dye		(cactus_green; bone_meal)
-Lg	-	lime_stained_glass
-Lt	-	lime_terracotta
-Lw	-	lime_wool
-	-	magenta_bed
-Md		magenta_dye_from_allium	(0)
-Md		magenta_dye_from_lapis_ink_bonemeal	(bone_meal; <lapis or iron_pickaxe; torch>) [+ink]
-Md		magenta_dye_from_lapis_red_pink		(<lapis or iron_pickaxe; torch>; red_dye; pink_dye)
-Md		magenta_dye_from_lilac				(0)
-Md		magenta_dye_from_purple_and_pink	(purple_dye; pink_dye)
-Mg	-	magenta_stained_glass
-Mt	-	magenta_terracotta
-Mw	-	magenta_wool
-	?	magma_block
-		magma_cream		(<slime_ball or wooden_sword>; blaze_powder)
-	?	map
-Ml	?	melon			(crafting_table)
-	?	melon_seeds
-Mc		minecart		(crafting_table; iron_ingot)
-Mb	?	mossy_cobblestone
-		mossy_cobblestone_wall	(crafting_table; <mossy_cobblestone or stone_pickaxe; stone_sword; torch>)
-	?	mushroom_stew
-	?	nether_brick_fence
-		nether_brick_slab	(crafting_table; <nether access; wooden_pickaxe or nether_bricks>)
-		nether_brick_stairs	(crafting_table; <nether access; wooden_pickaxe or nether_bricks>)
-Ns		nether_bricks		(nether_brick)
-		nether_wart_block	(crafting_table; nether access)
-		note_block		(crafting_table; __planks; <redstone or iron_pickaxe; torch>)
-		oak_boat		(crafting_table; oak_planks)
-		oak_button		(oak_planks)
-		oak_door		(crafting_table; oak_planks)
-		oak_fence		(crafting_table; oak_planks; stick)
-		oak_fence_gate	(crafting_table; oak_planks; stick)
-Op		oak_planks		(0)
-		oak_pressure_plate	(oak_planks)
-		oak_slab		(crafting_table; oak_planks)
-		oak_stairs		(crafting_table; oak_planks)
-		oak_trapdoor	(crafting_table; oak_planks)
-		oak_wood		(0)
-	?	observer
-	-	orange_bed
-Od		orange_dye_from_orange_tulip	(0)
-Od		orange_dye_from_red_yellow		(red_dye; yellow_dye)
-Og	-	orange_stained_glass
-Ot	-	orange_terracotta
-Ow	-	orange_wool
-Pc	?	packed_ice
-	?	painting
-Pp		paper			(crafting_table)
-	-	pink_bed
-Ky		pink_dye_from_peony			(0)
-Ky		pink_dye_from_pink_tulip	(0)
-Ky		pink_dye_from_red_bonemeal	(red_dye; bone_meal)
-Kg	-	pink_stained_glass
-Kt	-	pink_terracotta
-Kw	-	pink_wool
-Pi		piston				(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>; <cobblestone or wooden_pickaxe>; __planks)
-		polished_andesite	<andesite or wooden_pickaxe>
-		polished_diorite	<diorite or wooden_pickaxe>
-		polished_granite	<granite or wooden_pickaxe>
-R9	?	powered_rail
-Pr	?	prismarine
-		prismarine_brick_slab	(crafting_table; prismarine_bricks)
-		prismarine_brick_stairs	(crafting_table; prismarine_bricks)
-Pb	?	prismarine_bricks
-	?	prismarine_slab		(crafting_table; prismarine)
-	?	prismarine_stairs	(crafting_table; prismarine)
-	?	pumpkin_pie
-		pumpkin_seeds		(0)
-	-	purple_bed
-Pd	?	purple_dye
-Pg	-	purple_stained_glass
-Pt	-	purple_terracotta
-Pw	-	purple_wool
-Pu	?	purpur_block
-	?	purpur_pillar
-	?	purpur_slab
-	?	purpur_stairs
-Qb	?	quartz_block
-	?	quartz_pillar
-		quartz_slab		(crafting_table; quartz_block)
+		dark_prismarine_slab	(crafting_table; dark_prismarine)			"CtDa"
+		dark_prismarine_stairs	(crafting_table; dark_prismarine)			"CtDa"
+		daylight_detector		(crafting_table; glass; <quartz or nether access>; wooden slabs)	"CtGsQz_6"?
+R9		detector_rail	(crafting_table; iron_ingot; stone_pressure_plate; <redstone or iron_pickaxe; torch>)	"CtIiSu(Re|IxTo)"
+Di		diamond			(diamond_block)										"Db"
+		diamond_axe		(crafting_table; stick; <diamond or iron_pickaxe; torch>)	"CtSk(Di|IxTo)"
+Db		diamond_block	(crafting_table; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+		diamond_boots	(crafting_table; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+		diamond_chestplate	(crafting_table; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+		diamond_helmet		(crafting_table; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+		diamond_hoe			(crafting_table; stick; <diamond or iron_pickaxe; torch>)	"CtSk(Di|IxTo)"
+		diamond_leggings	(crafting_table; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+Dx		diamond_pickaxe	(crafting_table; stick; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+		diamond_shovel	(crafting_table; stick; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+Ds		diamond_sword	(crafting_table; stick; <diamond or iron_pickaxe; torch>)	"Ct(Di|IxTo)"
+Do		diorite			(wooden_pickaxe; <quartz or nether access>)					???
+D3		dispenser		(bow; crafting_table; <redstone or iron_pickaxe; torch>)	"BoCt(Re|IxTo)"
+Kd		dried_kelp		(dried_kelp_block)									"Kb"
+Kb		dried_kelp_block	(crafting_table; dried_kelp)					"CtKd"
+		dropper				(<cobblestone or wooden_pickaxe>; crafting_table; <redstone or iron_pickaxe; torch>)	"CtWx(Re|IxTo)"
+Em		emerald				(emerald_block)									"Eb"
+Eb		emerald_block		(crafting_table; <emerald or iron_pickaxe; torch>)	"Ct(Em|IxTo)"
+Et		enchanting_table	(book; crafting_table; diamond_pickaxe; torch)	"BkCt(DiEcWx|DxTo)"
+	?	end_crystal		(crafting_table; ender_eye; glass; nether access; bow; <arrow or s_arrow>)
+	?	end_rod			(popped_chorus_fruit; nether access->blaze_rod)
+		end_stone_bricks	(wooden_pickaxe; end access)					???
+Ec		ender_chest				(crafting_table; diamond_pickaxe; ender_eye)"CtEe(DxTo|EcWx)"
+Ee		ender_eye				(blaze_powder; stone_sword)					"BzSd"
+		fermented_spider_eye	(sugar; wooden_sword)						"SgWd"
+Fc	?	fire_charge		(blaze_powder; stone_sword; <coal or charcoal>)		"BzSd(Ca|Co)"
+Fr		fishing_rod		(crafting_table; stick; <string or wooden_sword>)	"CtSkWd"
+Fs		flint_and_steel	(iron_ingot) [+flint]								"Ii"
+		flower_pot		(crafting_table; brick)								"B0Ct"
+Fu		furnace			(crafting_table; <cobblestone or wooden_pickaxe>)	"CtWx"
+Fm		furnace_minecart	<any rail; furnace_minecart or (furnace; <minecart or any rail; <chest_minecart or hopper_minecart or tnt_minecart>>)>	"R9Fm|Fu(Mc|R9(Cm|Hm|Tm))"
+		glass_bottle			(crafting_table; glass)						"CtGs"
+		glass_pane				(crafting_table; glass)						"CtGs"
+		glistering_melon_slice	(crafting_table; gold_nugget)				"CtGn"
+Gt		glowstone		<nether access or glowstone>						???
+Gb		gold_block		(crafting_table; gold_ingot)						"CtGi"
+Gi		gold_ingot_from_gold_block	(gold_block)							"Gb"
+Gi		gold_ingot_from_nuggets		(crafting_table; gold_nugget)			"CtGn"
+Gn		gold_nugget		(gold_ingot)										"Gi"
+		golden_apple	(crafting_table; gold_ingot) [+apple]				"CtGi"
+G9		golden_axe		(crafting_table; gold_ingot; stick)					"CtGiSk"
+G9		golden_boots	(crafting_table; gold_ingot)						"CtGi"
+		golden_carrot	(crafting_table; gold_nugget)						"CtGn"
+G9		golden_chestplate	(crafting_table; gold_ingot)					"CtGi"
+G9		golden_helmet	(crafting_table; gold_ingot)						"CtGi"
+G9		golden_hoe		(crafting_table; gold_ingot; stick)					"CtGiSk"
+G9		golden_leggings	(crafting_table; gold_ingot)						"CtGi"
+G9		golden_pickaxe	(crafting_table; gold_ingot; stick)					"CtGiSk"
+G9		golden_shovel	(crafting_table; gold_ingot; stick)					"CtGiSk"
+G9		golden_sword	(crafting_table; gold_ingot; stick)					"CtGiSk"
+Ga		granite			(<diorite or wooden_pickaxe>; <quartz or nether access>)	???
+		gray_banner		(crafting_table; stick; <gray_wool or gray_dye; shears>)	"CtSk(Aw|AdSh)"
+		gray_bed		(crafting_table; __planks; <gray_wool or gray_dye; shears>)	"Ct(Aw|AdSh)_p"
+		gray_bed_from	(gray_dye; white_bed)								"AdWb"
+		gray_carpet		<gray_wool or gray_dye; shears>						"Aw|AdSh"
+		gray_concrete_powder	(crafting_table; gray_dye)					"AdCt"
+Ad		gray_dye				(bone_meal) [+ink]							"Bm"
+Ag		gray_stained_glass		(crafting_table; glass; gray_dye)			"AdCtGs"
+		gray_stained_glass_pane	(crafting_table; gray_stained_glass)		"AgCt"
+At		gray_terracotta	(crafting_table; gray_dye; terracotta)				"AdCtTc"
+Aw		gray_wool		(gray_dye) [+white_wool]							"Ad"
+		green_banner	(crafting_table; stick; <green_wool or cactus_green; shears>)	"CtSk(Ew|CcSh)"
+		green_bed		(crafting_table; <green_wool or cactus_green; shears>; __planks)"Ct(Ew|CcSh)_p"
+		green_bed_from	(cactus_green; white_bed)							"CcWb"
+		green_carpet	<green_wool or cactus_green; shears>				"Ew|CcSh"
+		green_concrete_powder	(crafting_table; cactus_green)				"CcCt"
+Eg		green_stained_glass		(crafting_table; cactus_green; glass)		"CcCtGs"
+		green_stained_glass_pane	(crafting_table; green_stained_glass)	"CtEg"
+Er		green_terracotta	(cactus_green; crafting_table; terracotta)		"CcCtTc"
+Ew		green_wool			(cactus_green) [+white_wool]					"Cc"
+Hb		hay_block			(crafting_table; <hoe or wheat>)				"Ct(Ho|Wh)"
+		heavy_weighted_pressure_plate	(iron_ingot)						"Ii"
+Hp		hopper			(chest; crafting_table; iron_ingot)					"ChCtIi"
+Hm		hopper_minecart	<any rail; hopper_minecart or (hopper; <minecart or any rail; <chest_minecart or furnace_minecart or tnt_minecart>>)>	"R9Hm|Hp(Mc|R9(Cm|Fm|Tm))"
+I9		iron_axe		(crafting_table; iron_ingot; stick)					"CtIiSk"
+		iron_bars		(crafting_table; iron_ingot)						"CtIi"
+Ib		iron_block		(crafting_table; iron_ingot)						"CtIi"
+I9		iron_boots		(crafting_table; iron_ingot)						"CtIi"
+I9		iron_chestplate	(crafting_table; iron_ingot)						"CtIi"
+		iron_door		(crafting_table; iron_ingot)						"CtIi"
+I9		iron_helmet		(crafting_table; iron_ingot)						"CtIi"
+I9		iron_hoe		(crafting_table; iron_ingot; stick)					"CtIiSk"
+Ii		iron_ingot_from_iron_block	(iron_block)							"Ib"
+Ii		iron_ingot_from_nuggets		(crafting_table; iron_nugget)			"CtIn"
+I9		iron_leggings	(crafting_table; iron_ingot)						"CtIi"
+In		iron_nugget		(iron_ingot)										"Ii"
+Ix		iron_pickaxe	(crafting_table; iron_ingot; stick)					"CtIiSk"
+I9		iron_shovel		(crafting_table; iron_ingot; stick)					"CtIiSk"
+Is		iron_sword		(crafting_table; iron_ingot; stick)					"CtIiSk"
+		iron_trapdoor	(iron_ingot)										"Ii"
+	?	item_frame		(crafting_table; stick)								"CtSk"
+Jo		jack_o_lantern	(shears; torch)										"ShTo"
+		jukebox			(crafting_table; <diamond or iron_pickaxe; torch>; __planks)	"Ct(Di|IxTo)_p"
+		jungle_boat		(crafting_table; jungle_planks)						"CtJp"
+		jungle_button	(jungle_planks)										"Jp"
+		jungle_door		(crafting_table; jungle_planks)						"CtJp"
+		jungle_fence	(crafting_table; jungle_planks; stick)				"CtJpSk"
+		jungle_fence_gate	(crafting_table; jungle_planks; stick)			"CtJpSk"
+Jp		jungle_planks		(0)												0
+		jungle_pressure_plate	(jungle_planks)								"Jp"
+J6		jungle_slab		(crafting_table; jungle_planks)						"CtJp"
+		jungle_stairs	(crafting_table; jungle_planks)						"CtJp"
+		jungle_trapdoor	(crafting_table; jungle_planks)						"CtJp"
+		jungle_wood		(0)													0
+		ladder			(crafting_table; stick)								"CtSk"
+Lb		lapis_block		(crafting_table; <lapis or iron_pickaxe; torch>)	"Ct(Ll|IxTo)"
+Ll		lapis_lazuli	(lapis_block)										"Lb"
+		lead			(crafting_table; <wooden_sword or string; slime_ball>)	"CtWd"
+Lr		leather			(0)													0
+		leather_boots	(crafting_table; <hoe or wheat or leather>)			"Ct(Ho|Lr|Wh)"
+		leather_chestplate	(crafting_table; <hoe or wheat or leather>)		"Ct(Ho|Lr|Wh)"
+		leather_helmet		(crafting_table; <hoe or wheat or leather>)		"Ct(Ho|Lr|Wh)"
+		leather_leggings	(crafting_table; <hoe or wheat or leather>)		"Ct(Ho|Lr|Wh)"
+		lever				(<cobblestone or wooden_pickaxe>; stick)		"SkWx"
+		light_blue_banner	(crafting_table; stick; <light_blue_wool or light_blue_dye; shears>)	"CtSk(Uo|UdSh)"
+		light_blue_bed		(crafting_table; __planks; <light_blue_wool or light_blue_dye; shears>)	"Ct(Uo|UdSh)_p"
+		light_blue_bed_from	(light_blue_dye; white_bed)						"UdWb"
+		light_blue_carpet	<light_blue_wool or light_blue_dye; shears>		"Uo|UdSh"
+		light_blue_concrete_powder		(crafting_table; light_blue_dye)	"CtUd"
+Ud		light_blue_dye_from_blue_orchid	(0)									0
+Ud		light_blue_dye_from_lapis_bonemeal	(<lapis or iron_pickaxe; torch>; bone_meal)	"Bm(Ll|IxTo)"
+Us		light_blue_stained_glass		(crafting_table; glass; light_blue_dye)	"CtGsUd"
+		light_blue_stained_glass_pane	(crafting_table; light_blue_stained_glass)	"CtUs"
+Ur		light_blue_terracotta	(crafting_table; light_blue_dye; terracotta)	"CtTcUd"
+Uo		light_blue_wool			(light_blue_dye) [+white_wool]				"Ud"
+		light_gray_banner	(crafting_table; stick; <light_gray_wool or shears>)	"CtSk(Zw|Sh)"
+		light_gray_bed		(crafting_table; __planks; <light_gray_wool or shears>)	"Ct(Zw|Sh)_p"
+		light_gray_bed_from	(light_gray_dye; white_bed)						"WbZd"
+		light_gray_carpet	<light_gray_wool or shears>						"Zw|Sh"
+		light_gray_concrete_powder			(crafting_table; light_gray_dye)"CtZd"
+Zd		light_gray_dye_from_azure_bluet		(0)								0
+Zd		light_gray_dye_from_gray_bonemeal	(gray_dye; bone_meal)			"AdBm"
+Zd		light_gray_dye_from_ink_bonemeal	(bone_meal) [+ink]				"Bm"
+Zd		light_gray_dye_from_oxeye_daisy		(0)								0
+Zd		light_gray_dye_from_white_tulip		(0)								0
+Zg		light_gray_stained_glass	(crafting_table; glass; light_gray_dye)	"CtGsZd"
+		light_gray_stained_glass_pane	(crafting_table; light_gray_stained_glass)	"CtZg"
+Zt		light_gray_terracotta		(crafting_table; light_gray_dye; terracotta)	"CtTcZd"
+Zw		light_gray_wool				(light_gray_dye)						"Zd"
+		light_weighted_pressure_plate	(gold_ingot)						"Gi"
+		lime_banner		(crafting_table; stick; <lime_wool or lime_dye; shears>)	"CtSk(Lw|LdSh)"
+		lime_bed		(crafting_table; __planks; <lime_wool or lime_dye; shears>)	"Ct(Lw|LdSh)_p"
+		lime_bed_from	(lime_dye; white_bed)								"LdWb"
+		lime_carpet		<lime_wool or lime_dye; shears>						"Lw|LdSh"
+		lime_concrete_powder	(crafting_table; lime_dye)					"CtLd"
+Ld		lime_dye				(cactus_green; bone_meal)					"BmCc"
+Lg		lime_stained_glass		(crafting_table; glass; lime_dye)			"CtGsLd"
+		lime_stained_glass_pane	(crafting_table; lime_stained_glass)		"CtLg"
+Lt		lime_terracotta			(crafting_table; lime_dye; terracotta)		"CtLdTc"
+Lw		lime_wool				(lime_dye) [+white_wool]					"Ld"
+		magenta_banner		(crafting_table; stick; <magenta_wool or magenta_dye; shears>)	"CtSk(Mw|MdSh)"
+		magenta_bed			(crafting_table; __planks; <magenta_wool or magenta_dye; shears>)	"Ct(Mw|MdSh)_p"
+		magenta_bed_from	(magenta_dye; white_bed)						"MdWb"
+		magenta_carpet		<magenta_wool or magenta_dye; shears>			"Mw|MdSh"
+		magenta_concrete_powder	(crafting_table; magenta_dye)				"CtMd"
+Md		magenta_dye_from_allium	(0)											0
+Md		magenta_dye_from_lapis_ink_bonemeal	(bone_meal; <lapis or iron_pickaxe; torch>) [+ink]	"Bm(Ll|IxTo)"
+Md		magenta_dye_from_lapis_red_pink		(<lapis or iron_pickaxe; torch>; red_dye; pink_dye)	"RdKy(Ll|IxTo)"
+Md		magenta_dye_from_lilac				(0)								0
+Md		magenta_dye_from_purple_and_pink	(purple_dye; pink_dye)			"KyPd"
+Mg		magenta_stained_glass		(crafting_table; glass; magenta_dye)	"CtGsMd"
+		magenta_stained_glass_pane	(crafting_table; magenta_stained_glass)	"CtMg"
+Mt		magenta_terracotta	(crafting_table; magenta_dye; terracotta)		"CtMdTc"
+Mw		magenta_wool		(magenta_dye)	[+white_wool]					"Md"
+		magma_block		(magma_cream or nether access-->magma_cream)		???
+		magma_cream		(<slime_ball or wooden_sword>; blaze_powder)		"Bz(Sl|Wd)"
+		map				(crafting_table; compass; paper)					"CpCtPp"
+Ml		melon			(crafting_table)									"Ct"
+		melon_seeds		<melon or enchanting_table; <lapis; axe or iron_pickaxe>>	"Ml|Et(AxLl|Ix)"
+Mc		minecart		(crafting_table; iron_ingot)						"CtIi"
+Mb		mossy_cobblestone		(wooden_pickaxe; shears)					"ShWx"
+		mossy_cobblestone_wall	(crafting_table; <mossy_cobblestone or stone_pickaxe; stone_sword; torch>)	"Ct(Mb|SxSdTo)"
+		mossy_stone_bricks		(bricks; shears)							"BrSh"
+		mushroom_stew			(bowl)										"Bl"
+		nether_brick_fence	(crafting_table; <nether access; wooden_pickaxe or nether_bricks>)	???
+		nether_brick_slab	(crafting_table; <nether access; wooden_pickaxe or nether_bricks>)	???
+		nether_brick_stairs	(crafting_table; <nether access; wooden_pickaxe or nether_bricks>)	???
+Ns		nether_bricks		(nether_brick)									"Nb"
+		nether_wart_block	(crafting_table; nether access)					???
+		note_block		(crafting_table; __planks; <redstone or iron_pickaxe; torch>)	"Ct(Re|IxTo)_p"
+		oak_boat		(crafting_table; oak_planks)						"CtOp"
+		oak_button		(oak_planks)										"Op"
+		oak_door		(crafting_table; oak_planks)						"CtOp"
+		oak_fence		(crafting_table; oak_planks; stick)					"CtOpSk"
+		oak_fence_gate	(crafting_table; oak_planks; stick)					"CtOpSk"
+Op		oak_planks		(0)													0
+		oak_pressure_plate	(oak_planks)									"Op"
+O6		oak_slab		(crafting_table; oak_planks)						"CtOp"
+		oak_stairs		(crafting_table; oak_planks)						"CtOp"
+		oak_trapdoor	(crafting_table; oak_planks)						"CtOp"
+		oak_wood		(0)													0
+		observer		(<wooden_pickaxe; redstone or iron_pickaxe; torch>; <quartz or nether access>)	???
+		orange_banner	(crafting_table; stick; <orange_wool or orange_dye; shears>)	"CtSk(Ow|OdSh)"
+		orange_bed		(crafting_table; __planks; <orange_wool or orange_dye; shears>)	"Ct(Ow|OdSh)_p"
+		orange_bed_from	(orange_dye; white_bed)								"OdWb"
+		orange_carpet	<orange_wool or orange_dye; shears>					"Ow|OdSh"
+		orange_concrete_powder	(crafting_table; orange_dye)				"CtOd"
+Od		orange_dye_from_orange_tulip	(0)									0
+Od		orange_dye_from_red_yellow		(red_dye; yellow_dye)				"RdYd"
+Og		orange_stained_glass		(crafting_table; glass; orange_dye)		"CtGsOd"
+		orange_stained_glass_pane	(crafting_table; orange_stained_glass)	"CtOg"
+Ot		orange_terracotta	(crafting_table; orange_dye; terracotta)		"CtOdTc"
+Ow		orange_wool			(orange_dye) [+white_wool]						"Od"
+Pc		packed_ice		(crafting_table; enchanting_table; <lapis; wooden_pickaxe or iron_pickaxe>)	"CtEt(LlWx|Ix)"
+		painting		(crafting_table; stick)								"CtSk"
+Pp		paper			(crafting_table)									"Ct"
+		pink_banner		(crafting_table; stick; <pink_wool or pink_dye; shears>)	"CtSk(Kw|KySh)"
+		pink_bed		(crafting_table; __planks; <pink_wool or pink_dye; shears>)	"Ct(Kw|KySh)(Ap|Bp|Dp|Op|Jp|Sp)"
+		pink_bed_from	(pink_dye; white_bed)								"KyWb"
+		pink_carpet		<pink_wool or pink_dye; shears>						"Kw|KySh"
+		pink_concrete_powder		(crafting_table; pink_dye)				"CtKy"
+Ky		pink_dye_from_peony			(0)										0
+Ky		pink_dye_from_pink_tulip	(0)										0
+Ky		pink_dye_from_red_bonemeal	(red_dye; bone_meal)					"BmRd"
+Kg		pink_stained_glass		(crafting_table; glass; pink_dye)			"CtGsKy"
+		pink_stained_glass_pane	(crafting_table; pink_stained_glass)		"CtKg"
+Kt		pink_terracotta	(crafting_table; pink_dye; terracotta)				"CtKyTc"
+Kw		pink_wool		(pink_dye) [+white_wool]							"Ky"
+Pi		piston			(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>; <cobblestone or wooden_pickaxe>; __planks)	"CtIi(ReWx|IxTo)_p"
+		polished_andesite	<andesite or wooden_pickaxe>					"An|Wx"
+		polished_diorite	<diorite or wooden_pickaxe>						"Do|Wx"
+		polished_granite	<granite or wooden_pickaxe>						"Ga|Wx"
+R9		powered_rail	(crafting_table; gold_ingot; stick; <redstone or iron_pickaxe; torch>)	"CtGiSk(Re|IxTo)"
+Pr	?	prismarine		(shards???)
+		prismarine_brick_slab	(crafting_table; prismarine_bricks)			"CtPb"
+		prismarine_brick_stairs	(crafting_table; prismarine_bricks)			"CtPb"
+Pb	?	prismarine_bricks	(crafting_table; shards???)
+	?	prismarine_slab		(crafting_table; prismarine)					"CtPr"
+	?	prismarine_stairs	(crafting_table; prismarine)					"CtPr"
+		pumpkin_pie			(sugar)											"Sg"
+		pumpkin_seeds		(0)												0
+		purple_banner	(crafting_table; stick; <purple_wool or purple_dye; shears>)	"CtSk(Pw|PdSh)"
+		purple_bed		(crafting_table; __planks; <purple_wool or purple_dye; shears>)	"Ct(Pw|PdSh)_p"
+		purple_carpet	<purple_wool or purple_dye; shears>					"Pw|PdSh"
+		purple_concrete_powder	(crafting_table; purple_dye)				"CtPd"
+Pd		purple_dye				(lapis; rose_red)							"LlRd"
+Pg		purple_stained_glass	(crafting_table; glass; purple_dye)			"CtGsPd"
+		purple_stained_glass_pane	(crafting_table; purple_stained_glass)	"CtPg"
+Pt		purple_terracotta	(crafting_table; purple_dye; terracotta)		"CtPdTc"
+Pw		purple_wool			(purple_dye) [+white_wool]						"Pd"
+Pu		purpur_block		(popped_chorus_fruit)							"Pf"
+		purpur_pillar		(purpur_slab)									"Ps"
+Ps		purpur_slab			(crafting_table; purpur_block)					"CtPu"
+		purpur_stairs		(crafting_table; purpur_block)					"CtPu"
+Qb	?	quartz_block		(quartz or nether access)
+		quartz_pillar	(quartz_block)										"Qb"
+Qs		quartz_slab		(crafting_table; quartz_block)
 		quartz_stairs	(crafting_table; quartz_block)
 		rabbit_stew_from_brown_mushroom	(crafting_table; bowl; baked_potato; cooked_rabbit)
 	?	rabbit_stew_from_red_mushroom	(crafting_table; bowl; baked_potato; cooked_rabbit; wooden_axe)
@@ -349,7 +378,7 @@ Rd		red_dye_from_rose_bush	(0)
 Rd		red_dye_from_tulip		(0)
 	?	red_nether_bricks
 Rs	?	red_sandstone
-		red_sandstone_slab	(crafting_table; red_sandstone_slab)
+Ra		red_sandstone_slab	(crafting_table; red_sandstone_slab)
 		red_sandstone_stairs	(crafting_table; red_sandstone_slab)
 Rg	-	red_stained_glass
 Rt	-	red_terracotta
@@ -360,7 +389,7 @@ Rk		redstone_block	(crafting_table; <redstone or iron_pickaxe; torch>)
 Rr		redstone_torch	(<redstone or iron_pickaxe; torch>; stick)
 Rp	?	repeater
 Ss		sandstone		(0)
-		sandstone_slab	(crafting_table; <sandstone or wooden_pickaxe>)
+Sn		sandstone_slab	(crafting_table; <sandstone or wooden_pickaxe>)
 		sandstone_stairs	(crafting_table; <sandstone or wooden_pickaxe>)
 	?	sea_lantern
 Sh		shears			(iron_ingot)
@@ -379,22 +408,22 @@ Sa	?	spectral_arrow
 		spruce_fence_gate		(crafting_table; spruce_planks; stick)
 Sp		spruce_planks			(0)
 		spruce_pressure_plate	(spruce_planks)
-		spruce_slab				(crafting_table; spruce_planks)
+S6		spruce_slab				(crafting_table; spruce_planks)
 		spruce_stairs			(crafting_table; spruce_planks)
 		spruce_trapdoor			(crafting_table; spruce_planks)
 		spruce_wood				(0)
 Sk		stick					(__planks)
 		sticky_piston			(piston; <slime_ball or wooden_sword; torch>)
 		stone_axe				(wooden_pickaxe; crafting_table; stick)
-		stone_brick_slab		(crafting_table; stone_bricks)
+Sr		stone_brick_slab		(crafting_table; stone_bricks)
 		stone_brick_stairs		(crafting_table; stone_bricks)
 Sb		stone_bricks			<stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; furnace; wooden_pickaxe)>
 		stone_button			<stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; furnace; wooden_pickaxe)>
 		stone_hoe				(<cobblestone or wooden_pickaxe>; crafting_table; stick)
 Sx		stone_pickaxe			(<cobblestone or wooden_pickaxe>; crafting_table; stick)
-		stone_pressure_plate	<stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; wooden_pickaxe)>
+Su		stone_pressure_plate	<stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; wooden_pickaxe)>
 		stone_shovel			(<cobblestone or wooden_pickaxe>; crafting_table; stick)
-		stone_slab				(crafting_table; <stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; furnace; wooden_pickaxe)>)
+So		stone_slab				(crafting_table; <stone or (book; enchanting_table; <lapis_lazuli or iron_pickaxe>; furnace; wooden_pickaxe)>)
 Sd		stone_sword				(<cobblestone or wooden_pickaxe>; crafting_table; stick)
 Sg		sugar					(0)
 Tt		tnt						(crafting_table; stone_sword)
@@ -404,7 +433,7 @@ To		torch					(stick; <wooden_pickaxe or coal or charcoal>)
 Th		tripwire_hook			(iron_ingot; __planks)
 		turtle_helmet			(crafting_table; wooden_sword) [+scute]
 Wh		wheat					(hay_block)
-	-	white_bed				(crafting_table; __planks)
+Wb	-	white_bed				(crafting_table; __planks)
 Wg	-	white_stained_glass
 Wt	-	white_terracotta
 Ww		white_wool_from_string	(fishing_rod; wooden_sword)
@@ -435,6 +464,7 @@ Co	?	coal_from_smelting		(book; enchanting_table; <lapis_lazuli or iron_pickaxe>
 		cooked_porkchop			(furnace or flint_and_steel)
 		cooked_rabbit			(furnace or flint_and_steel)
 		cooked_salmon			(fishing_rod; furnace)
+		cracked_stone_bricks	(furnace; stone_bricks)
 Di		diamond_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
 Kd	?	dried_kelp_from_smelting	(furnace)
 Em		emerald_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
@@ -446,7 +476,7 @@ In		iron_nugget_from_smelting	(furnace; iron_<pickaxe or axe or shovel or hoe or
 Ll	?	lapis_from_smelting		(book; enchanting_table; furnace; iron_pickaxe)
 Ld		lime_dye_from_smelting	(furnace)
 Nb		nether_brick			(furnace; nether access)
-		popped_chorus_fruit		(furnace; postdragon access)
+Pf		popped_chorus_fruit		(furnace; postdragon access)
 Qz	?	quartz
 Re		redstone_from_smelting	(book; enchanting_table; furnace; iron_pickaxe)
 Np	?	sponge					(defeat gardians... so...)
@@ -454,11 +484,13 @@ St		stone					(furnace; <wooden_pickaxe or cobblestone>)
 Tc	?	terracotta
 
 		//Shortened Locations
-Na	?	nether access					(<diamond_pickaxe or bucket>; <flint_and_steel or firecharge; dispencer>)
-Ea	?	end access						(ender_eye; stone_pickaxe; torch)
-Zz	?	post-game/ post-dragon access
-Wi	?	wither							(nether access; iron_sword; enchanting_table; <lapis or iron_pickaxe; torch>)
-_p		any planks						"<Ap-Bp-Dp-Op-Jp-Sp>"
+Na		nether access			(<diamond_pickaxe or bucket or ender_chest; wooden_pickaxe>; <flint_and_steel or firecharge>)
+Ea		end access				(ender_eye; wooden_pickaxe; torch; <stone_sword or bow; any arrow>)
+Zz	?	post-game/ post-dragon access	(ender_eye; wooden_pickaxe; torch; <bow; any arrow or iron_sword>)
+Wi	?	wither					(nether access; bow; iron_sword; enchanting_table; <lapis or iron_pickaxe; torch>; any arrow; <2 pieces of iron armor and potions or 4 pieces of iron armor>)
+		water temple			(any helmet; stone_sword; underwater breathing)
+		elder gardian			(water temple; +1 armor; iron_sword)
+_p		any planks						"(Ap|Bp|Dp|Op|Jp|Sp)"
 
 
 
@@ -473,6 +505,7 @@ Ar		arrow
 At		gray_terracotta
 Aw		gray_wool
 Ax		wooden_axe
+A6		acacia_slab
 Bb		bone_block
 Bf		bookshelf
 Bg		black_stained_glass
@@ -488,6 +521,7 @@ Bu		bucket
 Bw		black_wool
 Bz		blaze_powder
 B0		brick
+B6		birch_slab
 Ca		charcoal
 Cb		coal_block
 Cc		cactus_green
@@ -496,6 +530,7 @@ Cg		cyan_stained_glass
 Ch		chest
 Cm		chest_minecart
 Co		coal
+Cp		compass
 Cr		cyan_terracotta
 Ct		crafting_table
 Cw		cyan_wool
@@ -508,6 +543,7 @@ Dp		dark_oak_planks
 Ds		diamond_sword
 Dx		diamond_pickaxe
 D3		dispenser
+D6		dark_oak_slab
 Eb		emerald_block
 Ec		ender_chest
 Ee		ender_eye
@@ -538,7 +574,9 @@ In		iron_nugget
 Is		iron_sword
 Ix		iron_pickaxe
 I9		useless iron items that can be smelted
+Jo		jack_o_lantern
 Jp		jungle_planks
+J6		jungle_slab
 Kb		dried_kelp_block
 Kd		dried_kelp
 Kg		pink_stained_glass
@@ -570,18 +608,23 @@ Od		orange_dye
 Og		orange_stained_glass
 Ot		orange_terracotta
 Ow		orange_wool
+O6		oak_slab
 Pb		prismarine_bricks
 Pc		packed_ice
 Pd		purple_dye
+Pf		popped_chorus_fruit
 Pg		purple_stained_glass
 Pi		piston
 Pp		paper
 Pr		prismarine
+Ps		purpur_slab
 Pt		purple_terracotta
 Pu		purpur_block
 Pw		purple_wool
 Qb		quartz_block
+Qs		quartz_slab
 Qz		quartz
+Ra		red_sandstone_slab
 Rd		red_dye
 Re		redstone
 Rg		red_stained_glass
@@ -600,11 +643,16 @@ Sh		shears
 Sk		stick
 Sl		slime_ball
 Sm		slime_block
+Sn		sandstone_slab
+So		stone_slab
 Sp		spruce_planks
+Sr		stone_brick_slab
 Ss		sandstone
 St		stone
+Su		stone_pressure_plate
 Sw		snow_block
 Sx		stone_pickaxe
+S6		spruce_slab
 Tc		terracotta
 Th		tripwire_hook
 Tm		tnt_minecart
@@ -617,6 +665,7 @@ Ur		light_blue_terracotta
 Us		light_blue_stained_glass
 Ut		blue_terracotta
 Uw		blue_wool
+Wb		white_bed
 Wd		wooden_sword
 Wg		white_stained_glass
 Wh		wheat
@@ -633,3 +682,7 @@ Zd		light_gray_dye
 Zg		light_gray_stained_glass
 Zt		light_gray_terracotta
 Zw		light_gray_wool
+
+
+Notes:
+Axes can also do damage
