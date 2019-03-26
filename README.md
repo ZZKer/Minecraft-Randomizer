@@ -33,5 +33,6 @@ Extended Feature Wishlist:
  - 1.14 support
  - loot tables (chests, entity drops, block drops in 1.14, ect...) randomized with recipes
  - difficulty selector
+ - sound randomizer
 
 If you have any questions, feel free to contact me on Discord @ ZZKer#1962
