@@ -188,7 +188,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "flower_pot"));
 		inputs.add(n++, new Input(false, "furnace", "Fu"));			//Fu
 		inputs.add(n++, new Input(false, "furnace_minecart", "Fm"));//Fm
-		inputs.add(n++, new Input(false, "glass_bottle"));
+		inputs.add(n++, new Input(false, "glass_bottle", "Gl"));
 		inputs.add(n++, new Input(false, "glass_pane"));
 		inputs.add(n++, new Input(false, "glistering_melon_slice"));
 		inputs.add(n++, new Input(false, "glowstone", "Gt"));	//Gt
@@ -234,14 +234,14 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "iron_axe", "I9"));
 		inputs.add(n++, new Input(false, "iron_bars"));
 		inputs.add(n++, new Input(false, "iron_block", "Ib"));
-		inputs.add(n++, new Input(false, "iron_boots", "I9"));
-		inputs.add(n++, new Input(false, "iron_chestplate", "I9"));
+		inputs.add(n++, new Input(false, "iron_boots", "I8"));
+		inputs.add(n++, new Input(false, "iron_chestplate", "I7"));
 		inputs.add(n++, new Input(false, "iron_door"));
-		inputs.add(n++, new Input(false, "iron_helmet", "I9"));
+		inputs.add(n++, new Input(false, "iron_helmet", "I6"));
 		inputs.add(n++, new Input(false, "iron_hoe", "I9"));
 		inputs.add(n++, new Input(false, "iron_ingot_from_iron_block", "Ii"));
 		inputs.add(n++, new Input(false, "iron_ingot_from_nuggets", "Ii"));
-		inputs.add(n++, new Input(false, "iron_leggings", "I9"));
+		inputs.add(n++, new Input(false, "iron_leggings", "I5"));
 		inputs.add(n++, new Input(false, "iron_nugget", "In"));
 		inputs.add(n++, new Input(false, "iron_pickaxe", "Ix"));
 		inputs.add(n++, new Input(false, "iron_shovel", "I9"));
@@ -266,10 +266,10 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "lapis_lazuli", "Ll"));
 		inputs.add(n++, new Input(false, "lead"));
 		inputs.add(n++, new Input(false, "leather", "Lr"));
-		inputs.add(n++, new Input(false, "leather_boots"));
-		inputs.add(n++, new Input(false, "leather_chestplate"));
-		inputs.add(n++, new Input(false, "leather_helmet"));
-		inputs.add(n++, new Input(false, "leather_leggings"));
+		inputs.add(n++, new Input(false, "leather_boots", "L9"));
+		inputs.add(n++, new Input(false, "leather_chestplate", "L9"));
+		inputs.add(n++, new Input(false, "leather_helmet", "L6"));
+		inputs.add(n++, new Input(false, "leather_leggings", "L9"));
 		inputs.add(n++, new Input(false, "lever"));
 		inputs.add(n++, new Input(false, "light_blue_banner"));
 		inputs.add(n++, new Input(false, "light_blue_bed"));
@@ -322,7 +322,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "magenta_terracotta", "Mt"));
 		inputs.add(n++, new Input(false, "magenta_wool", "Mw"));
 		inputs.add(n++, new Input(false, "magma_block"));
-		inputs.add(n++, new Input(false, "magma_cream"));
+		inputs.add(n++, new Input(false, "magma_cream", "Ma"));
 		inputs.add(n++, new Input(false, "map"));
 		inputs.add(n++, new Input(false, "melon", "Ml"));
 		inputs.add(n++, new Input(false, "melon_seeds"));
@@ -502,7 +502,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "yellow_wool", "Yw"));
 		
 		//Smelting Recipes
-		inputs.add(n++, new Input(true, "baked_potato"));
+		inputs.add(n++, new Input(true, "baked_potato", "Ba"));
 		inputs.add(n++, new Input(true, "black_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "blue_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "brick", "B0"));
@@ -515,7 +515,7 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "cooked_cod"));
 		inputs.add(n++, new Input(true, "cooked_mutton"));
 		inputs.add(n++, new Input(true, "cooked_porkchop"));
-		inputs.add(n++, new Input(true, "cooked_rabbit"));
+		inputs.add(n++, new Input(true, "cooked_rabbit", "Rc"));
 		inputs.add(n++, new Input(true, "cooked_salmon"));
 		inputs.add(n++, new Input(true, "cracked_stone_bricks"));
 		inputs.add(n++, new Input(true, "cyan_glazed_terracotta"));
