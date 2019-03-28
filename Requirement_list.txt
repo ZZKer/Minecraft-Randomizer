@@ -38,10 +38,10 @@ Bg		black_stained_glass	(crafting_table; glass) [+ink]					"CtGs"
 Bt		black_terracotta	(terracotta) [+ink]								"Tc"
 Bw		black_wool		(0) [ink]											0
 Bz		blaze_powder	(nether access; <iron_sword or bow; any arrow>)		"(Bu|Dx|EcWx)(Fs|Fc)(Is|Bo(Ar|Sa))"
-		blue_banner		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; stick)		"(Uw|(Ll|IxTo)Sh)CtSk"
-		blue_bed		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; __planks)	"(Uw|Sh(Ll|IxTo))Ct(Ap|Bp|Dp|Op|Jp|Sp)"
+		blue_banner		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; stick)		"CtSk(Uw|Sh(Ll|IxTo))"
+		blue_bed		(<blue_wool or <lapis or iron_pickaxe>; shears>; crafting_table; __planks)	"Ct(Ap|Bp|Dp|Op|Jp|Sp)(Uw|Sh(Ll|IxTo))"
 		blue_bed_from	(<lapis or iron_pickaxe>; white_bed)				"Wb(Ll|IxTo)"
-		blue_carpet		<blue_wool or <lapis or iron_pickaxe>; shears>		"Uw|(Ll|IxTo)Sh"
+		blue_carpet		<blue_wool or <lapis or iron_pickaxe>; shears>		"Uw|Sh(Ll|IxTo)"
 		blue_concrete_powder	(<lapis or iron_pickaxe>; crafting_table)	"Ct(Ll|IxTo)"
 		blue_ice		(crafting_table; packed_ice)						"CtPc"
 Ug		blue_stained_glass	(<lapis or iron_pickaxe>; crafting_table; glass)"CtGs(Ll|IxTo)"
@@ -89,7 +89,7 @@ Cb		coal_block		(crafting_table; <wooden_pickaxe or coal>)			"Ct(Wx|Co)"
 		cobblestone_wall	(crafting_table; wooden_pickaxe)				"CtWx"
 		comparator		(crafting_table; redstone_torch; <quartz or nether access>; <stone or enchanting_table; <lapis; wooden_pickaxe or iron_pickaxe>>	"CtRr(Qz|Wx(Bu|Dx|Ec)(Fs|Fc))(St|Et(LlWx|IxTo))"
 Cp		compass			(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>)	"CtIi(Re|IxTo)"
-	?	conduit			(map?)
+		conduit			(crafting_table; map)								"CtMp"
 		cookie			(crafting_table; <hoe or wheat>)					"Ct(Ho|Wh)"
 Ct		crafting_table	(__planks)											"(Ap|Bp|Dp|Op|Jp|Sp)"
 		cut_red_sandstone	(red_sandstone)									"Rs"
@@ -115,7 +115,7 @@ D6		dark_oak_slab		(crafting_table; dark_oak_planks)				"CtDp"
 		dark_oak_stairs		(crafting_table; dark_oak_planks)				"CtDp"
 		dark_oak_trapdoor	(crafting_table; dark_oak_planks)				"CtDp"
 		dark_oak_wood		(0)												0
-Da	?	dark_prismarine
+Da		dark_prismarine		(crafting_table, water temple)	"CtL6Sd(BsGlBzFr(Bu|Dx|EcWx)(Fs|Fc)|Et(Ll|IxTo))"
 		dark_prismarine_slab	(crafting_table; dark_prismarine)			"CtDa"
 		dark_prismarine_stairs	(crafting_table; dark_prismarine)			"CtDa"
 		daylight_detector		(crafting_table; glass; <quartz or nether access>; wooden slabs)	"CtGs(Qz|Wx(Bu|Dx|Ec)(Fs|Fc))(A6|B6|D6|J6|O6|S6)"
@@ -286,7 +286,7 @@ Mt		magenta_terracotta	(crafting_table; magenta_dye; terracotta)		"CtMdTc"
 Mw		magenta_wool		(magenta_dye)	[+white_wool]					"Md"
 		magma_block		(magma_cream or nether access-->magma_cream)		"Ma|Sd(Bu|Dx|EcWx)(Fs|Fc)"
 Ma		magma_cream		(<slime_ball or wooden_sword>; blaze_powder)		"Bz(Sl|Wd)"
-		map				(crafting_table; compass; paper)					"CpCtPp"
+Mp		map				(crafting_table; compass; paper)					"CpCtPp"
 Ml		melon			(crafting_table)									"Ct"
 		melon_seeds		<melon or enchanting_table; <lapis; axe or iron_pickaxe>>	"Ml|Et(AxLl|Ix)"
 Mc		minecart		(crafting_table; iron_ingot)						"CtIi"
@@ -343,12 +343,12 @@ Pi		piston			(crafting_table; iron_ingot; <redstone or iron_pickaxe; torch>; <co
 		polished_diorite	<diorite or wooden_pickaxe>						"Do|Wx"
 		polished_granite	<granite or wooden_pickaxe>						"Ga|Wx"
 R9		powered_rail	(crafting_table; gold_ingot; stick; <redstone or iron_pickaxe; torch>)	"CtGiSk(Re|IxTo)"
-Pr	?	prismarine		(shards???)
+Pr		prismarine		(water temple)			"L6Sd(BsGlBzFr(Bu|Dx|EcWx)(Fs|Fc)|Et(Ll|IxTo))"
 		prismarine_brick_slab	(crafting_table; prismarine_bricks)			"CtPb"
 		prismarine_brick_stairs	(crafting_table; prismarine_bricks)			"CtPb"
-Pb	?	prismarine_bricks	(crafting_table; shards???)
-	?	prismarine_slab		(crafting_table; prismarine)					"CtPr"
-	?	prismarine_stairs	(crafting_table; prismarine)					"CtPr"
+Pb		prismarine_bricks	(crafting_table; water temple)	"CtL6Sd(BsGlBzFr(Bu|Dx|EcWx)(Fs|Fc)|Et(Ll|IxTo))"
+		prismarine_slab		(crafting_table; prismarine)					"CtPr"
+		prismarine_stairs	(crafting_table; prismarine)					"CtPr"
 		pumpkin_pie			(sugar)											"Sg"
 		pumpkin_seeds		(0)												0
 		purple_banner	(crafting_table; stick; <purple_wool or purple_dye; shears>)	"CtSk(Pw|PdSh)"
@@ -396,7 +396,7 @@ Rp		repeater		(crafting_table; redstone_torch; <redstone or iron_pickaxe; torch>
 Ss		sandstone		(0)													0
 Sn		sandstone_slab	(crafting_table; <sandstone or wooden_pickaxe>)		"Ct(Ss|Wx)"
 		sandstone_stairs	(crafting_table; <sandstone or wooden_pickaxe>)	"Ct(Ss|Wx)"
-	?	sea_lantern		(shard??; crystal??)
+		sea_lantern		(water temple)				"L6Sd(BsGlBzFr(Bu|Dx|EcWx)(Fs|Fc)|Et(Ll|IxTo))"
 Sh		shears			(iron_ingot)										"Ii"
 		shield			(crafting_table; iron_ingot; __planks)				"CtIi(Ap|Bp|Dp|Op|Jp|Sp)"
 Xs		shulker_box		(post-dragon)										"EeToWx(Is|Bo(Ar|Sa))"
@@ -633,6 +633,7 @@ Mc		minecart
 Md		magenta_dye
 Mg		magenta_stained_glass
 Ml		melon
+Mp		map
 Mt		magenta_terracotta
 Mw		magenta_wool
 Nb		nether_brick

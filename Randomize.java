@@ -35,8 +35,9 @@ public class Randomize {
 		List<Input> inputs = new ArrayList<Input>();
 		int n = 0;
 		
+		
 		//Crafting Recipes
-		inputs.add(n++, new Input(false, "acacia_boat"));
+		inputs.add(n++, new Input(false, "acacia_boat"));			//  -000
 		inputs.add(n++, new Input(false, "acacia_button"));
 		inputs.add(n++, new Input(false, "acacia_door"));
 		inputs.add(n++, new Input(false, "acacia_fence"));
@@ -46,7 +47,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "acacia_slab", "A6"));
 		inputs.add(n++, new Input(false, "acacia_stairs"));
 		inputs.add(n++, new Input(false, "acacia_trapdoor"));
-		inputs.add(n++, new Input(false, "acacia_wood"));
+		inputs.add(n++, new Input(false, "acacia_wood"));			//  -010
 		inputs.add(n++, new Input(false, "activator_rail", "R9"));	//R9
 		inputs.add(n++, new Input(false, "andesite", "An"));		//An
 		inputs.add(n++, new Input(false, "anvil"));
@@ -56,7 +57,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "beetroot_soup"));
 		inputs.add(n++, new Input(false, "birch_boat"));
 		inputs.add(n++, new Input(false, "birch_button"));
-		inputs.add(n++, new Input(false, "birch_door"));
+		inputs.add(n++, new Input(false, "birch_door"));			//  -020
 		inputs.add(n++, new Input(false, "birch_fence"));
 		inputs.add(n++, new Input(false, "birch_fence_gate"));
 		inputs.add(n++, new Input(false, "birch_planks", "Bp"));	//Bp
@@ -66,7 +67,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "birch_trapdoor"));
 		inputs.add(n++, new Input(false, "birch_wood"));
 		inputs.add(n++, new Input(false, "black_banner"));
-		inputs.add(n++, new Input(false, "black_bed"));
+		inputs.add(n++, new Input(false, "black_bed"));				//  -030
 		inputs.add(n++, new Input(false, "black_bed_from_white_bed"));
 		inputs.add(n++, new Input(false, "black_carpet"));
 		inputs.add(n++, new Input(false, "black_concrete_powder"));
@@ -76,7 +77,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "black_wool", "Bw"));			//Bw
 		inputs.add(n++, new Input(false, "blaze_powder", "Bz"));		//Bz
 		inputs.add(n++, new Input(false, "blue_banner"));
-		inputs.add(n++, new Input(false, "blue_bed"));
+		inputs.add(n++, new Input(false, "blue_bed"));				//  -040
 		inputs.add(n++, new Input(false, "blue_bed_from_white_bed"));
 		inputs.add(n++, new Input(false, "blue_carpet"));
 		inputs.add(n++, new Input(false, "blue_concrete_powder"));
@@ -86,7 +87,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "blue_terracotta", "Ut"));		//Ut
 		inputs.add(n++, new Input(false, "blue_wool", "Uw"));			//Uw
 		inputs.add(n++, new Input(false, "bone_block", "Bb"));		//Bb
-		inputs.add(n++, new Input(false, "bone_meal", "Bm"));		//Bm
+		inputs.add(n++, new Input(false, "bone_meal", "Bm"));		//Bm-050
 		inputs.add(n++, new Input(false, "bone_meal_from_bone_block", "Bm"));	//Bm
 		inputs.add(n++, new Input(false, "book", "Bk"));			//Bk
 		inputs.add(n++, new Input(false, "bookshelf", "Bf"));		//Bf
@@ -96,7 +97,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "brewing_stand", "Bs"));	//Bs
 		inputs.add(n++, new Input(false, "brick_slab"));
 		inputs.add(n++, new Input(false, "brick_stairs"));
-		inputs.add(n++, new Input(false, "bricks", "Br"));			//Br
+		inputs.add(n++, new Input(false, "bricks", "Br"));			//Br-060
 		inputs.add(n++, new Input(false, "brown_banner"));
 		inputs.add(n++, new Input(false, "brown_bed"));
 		inputs.add(n++, new Input(false, "brown_bed_from_white_bed"));
@@ -105,8 +106,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "brown_stained_glass", "Ng"));	//Ng
 		inputs.add(n++, new Input(false, "brown_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "brown_terracotta", "Nt"));	//Nt
-		inputs.add(n++, new Input(false, "brown_wool", "Nw"));			//Nw
-		inputs.add(n++, new Input(false, "bucket", "Bu"));				//Bu
+		inputs.add(n++, new Input(false, "brown_wool", "Nw"));		//Nw
+		inputs.add(n++, new Input(false, "bucket", "Bu"));			//Bu-070
 		inputs.add(n++, new Input(false, "cake"));
 		inputs.add(n++, new Input(false, "carrot_on_a_stick"));
 		inputs.add(n++, new Input(false, "cauldron"));
@@ -116,7 +117,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "chiseled_red_sandstone"));
 		inputs.add(n++, new Input(false, "chiseled_sandstone"));
 		inputs.add(n++, new Input(false, "chiseled_stone_bricks"));
-		inputs.add(n++, new Input(false, "clay", "Cy"));			//Cy
+		inputs.add(n++, new Input(false, "clay", "Cy"));			//Cy-080
 		inputs.add(n++, new Input(false, "clock"));
 		inputs.add(n++, new Input(false, "coal", "Co"));			//Co
 		inputs.add(n++, new Input(false, "coal_block", "Cb"));		//Cb
@@ -125,8 +126,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "cobblestone_stairs"));
 		inputs.add(n++, new Input(false, "cobblestone_wall"));
 		inputs.add(n++, new Input(false, "comparator"));
-		inputs.add(n++, new Input(false, "compass", "Cp"));
-		inputs.add(n++, new Input(false, "conduit"));
+		inputs.add(n++, new Input(false, "compass", "Cp"));			//Cp
+		inputs.add(n++, new Input(false, "conduit"));				//  -090
 		inputs.add(n++, new Input(false, "cookie"));
 		inputs.add(n++, new Input(false, "crafting_table", "Ct"));	//Ct
 		inputs.add(n++, new Input(false, "cut_red_sandstone"));
@@ -136,7 +137,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "cyan_bed_from_white_bed"));
 		inputs.add(n++, new Input(false, "cyan_carpet"));
 		inputs.add(n++, new Input(false, "cyan_concrete_powder"));
-		inputs.add(n++, new Input(false, "cyan_dye", "Cd"));			//Cd
+		inputs.add(n++, new Input(false, "cyan_dye", "Cd"));		//Cd-100
 		inputs.add(n++, new Input(false, "cyan_stained_glass", "Cg"));	//Cg
 		inputs.add(n++, new Input(false, "cyan_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "cyan_terracotta", "Cr"));		//Cr
@@ -156,7 +157,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "dark_prismarine_slab"));
 		inputs.add(n++, new Input(false, "dark_prismarine_stairs"));
 		inputs.add(n++, new Input(false, "daylight_detector"));
-		inputs.add(n++, new Input(false, "detector_rail", "R9"));		//R9
+		inputs.add(n++, new Input(false, "detector_rail", "R9"));	//R9-120
 		inputs.add(n++, new Input(false, "diamond", "Di"));			//Di
 		inputs.add(n++, new Input(false, "diamond_axe"));
 		inputs.add(n++, new Input(false, "diamond_block", "Db"));	//Db
@@ -176,11 +177,11 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "emerald", "Em"));			//Em
 		inputs.add(n++, new Input(false, "emerald_block", "Eb"));	//Eb
 		inputs.add(n++, new Input(false, "enchanting_table", "Et"));//Et
-		inputs.add(n++, new Input(false, "end_crystal"));
+		inputs.add(n++, new Input(false, "end_crystal"));			//  -140
 		inputs.add(n++, new Input(false, "end_rod"));
 		inputs.add(n++, new Input(false, "end_stone_bricks"));
-		inputs.add(n++, new Input(false, "ender_chest", "Ec"));	//Ec
-		inputs.add(n++, new Input(false, "ender_eye", "Ee"));	//Ee
+		inputs.add(n++, new Input(false, "ender_chest", "Ec"));		//Ec
+		inputs.add(n++, new Input(false, "ender_eye", "Ee"));		//Ee
 		inputs.add(n++, new Input(false, "fermented_spider_eye"));
 		inputs.add(n++, new Input(false, "fire_charge", "Fc"));		//Fc
 		inputs.add(n++, new Input(false, "fishing_rod", "Fr"));		//Fr
@@ -195,8 +196,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "gold_block", "Gb"));	//Gb
 		inputs.add(n++, new Input(false, "gold_ingot_from_gold_block", "Gi"));	//Gi
 		inputs.add(n++, new Input(false, "gold_ingot_from_nuggets", "Gi"));		//Gi
-		inputs.add(n++, new Input(false, "gold_nugget", "Gn"));	//Gn
-		inputs.add(n++, new Input(false, "golden_apple"));
+		inputs.add(n++, new Input(false, "gold_nugget", "Gn"));		//Gn
+		inputs.add(n++, new Input(false, "golden_apple"));			//  -160
 		inputs.add(n++, new Input(false, "golden_axe", "G9"));
 		inputs.add(n++, new Input(false, "golden_boots", "G9"));
 		inputs.add(n++, new Input(false, "golden_carrot"));
@@ -216,7 +217,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "gray_dye", "Ad"));
 		inputs.add(n++, new Input(false, "gray_stained_glass", "Ag"));
 		inputs.add(n++, new Input(false, "gray_stained_glass_pane"));
-		inputs.add(n++, new Input(false, "gray_terracotta", "At"));
+		inputs.add(n++, new Input(false, "gray_terracotta", "At"));		//At-180
 		inputs.add(n++, new Input(false, "gray_wool", "Aw"));
 		inputs.add(n++, new Input(false, "green_banner"));
 		inputs.add(n++, new Input(false, "green_bed"));
@@ -235,8 +236,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "iron_bars"));
 		inputs.add(n++, new Input(false, "iron_block", "Ib"));
 		inputs.add(n++, new Input(false, "iron_boots", "I8"));
-		inputs.add(n++, new Input(false, "iron_chestplate", "I7"));
-		inputs.add(n++, new Input(false, "iron_door"));
+		inputs.add(n++, new Input(false, "iron_chestplate", "I7"));	//I7
+		inputs.add(n++, new Input(false, "iron_door"));				//  -200
 		inputs.add(n++, new Input(false, "iron_helmet", "I6"));
 		inputs.add(n++, new Input(false, "iron_hoe", "I9"));
 		inputs.add(n++, new Input(false, "iron_ingot_from_iron_block", "Ii"));
@@ -255,8 +256,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "jungle_door"));
 		inputs.add(n++, new Input(false, "jungle_fence"));
 		inputs.add(n++, new Input(false, "jungle_fence_gate"));
-		inputs.add(n++, new Input(false, "jungle_planks", "Jp"));
-		inputs.add(n++, new Input(false, "jungle_pressure_plate"));
+		inputs.add(n++, new Input(false, "jungle_planks", "Jp"));	//Jp
+		inputs.add(n++, new Input(false, "jungle_pressure_plate"));	//  -220
 		inputs.add(n++, new Input(false, "jungle_slab", "J6"));
 		inputs.add(n++, new Input(false, "jungle_stairs"));
 		inputs.add(n++, new Input(false, "jungle_trapdoor"));
@@ -276,7 +277,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "light_blue_bed_from_white_bed"));
 		inputs.add(n++, new Input(false, "light_blue_carpet"));
 		inputs.add(n++, new Input(false, "light_blue_concrete_powder"));
-		inputs.add(n++, new Input(false, "light_blue_dye_from_blue_orchid", "Ud"));
+		inputs.add(n++, new Input(false, "light_blue_dye_from_blue_orchid", "Ud"));		//Ud-240
 		inputs.add(n++, new Input(false, "light_blue_dye_from_lapis_bonemeal", "Ud"));
 		inputs.add(n++, new Input(false, "light_blue_stained_glass", "Us"));
 		inputs.add(n++, new Input(false, "light_blue_stained_glass_pane"));
@@ -295,8 +296,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "light_gray_stained_glass", "Zg"));
 		inputs.add(n++, new Input(false, "light_gray_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "light_gray_terracotta", "Zt"));
-		inputs.add(n++, new Input(false, "light_gray_wool", "Zw"));
-		inputs.add(n++, new Input(false, "light_weighted_pressure_plate"));
+		inputs.add(n++, new Input(false, "light_gray_wool", "Zw"));		//Zw
+		inputs.add(n++, new Input(false, "light_weighted_pressure_plate"));	//  -260
 		inputs.add(n++, new Input(false, "lime_banner"));
 		inputs.add(n++, new Input(false, "lime_bed"));
 		inputs.add(n++, new Input(false, "lime_bed_from_white_bed"));
@@ -315,15 +316,15 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "magenta_dye_from_allium", "Md"));
 		inputs.add(n++, new Input(false, "magenta_dye_from_lapis_ink_bonemeal", "Md"));
 		inputs.add(n++, new Input(false, "magenta_dye_from_lapis_red_pink", "Md"));
-		inputs.add(n++, new Input(false, "magenta_dye_from_lilac", "Md"));
-		inputs.add(n++, new Input(false, "magenta_dye_from_purple_and_pink", "Md"));
+		inputs.add(n++, new Input(false, "magenta_dye_from_lilac", "Md"));	//Md
+		inputs.add(n++, new Input(false, "magenta_dye_from_purple_and_pink", "Md"));	//Md-280
 		inputs.add(n++, new Input(false, "magenta_stained_glass", "Mg"));
 		inputs.add(n++, new Input(false, "magenta_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "magenta_terracotta", "Mt"));
 		inputs.add(n++, new Input(false, "magenta_wool", "Mw"));
 		inputs.add(n++, new Input(false, "magma_block"));
 		inputs.add(n++, new Input(false, "magma_cream", "Ma"));
-		inputs.add(n++, new Input(false, "map"));
+		inputs.add(n++, new Input(false, "map", "Mp"));
 		inputs.add(n++, new Input(false, "melon", "Ml"));
 		inputs.add(n++, new Input(false, "melon_seeds"));
 		inputs.add(n++, new Input(false, "minecart", "Mc"));
@@ -336,7 +337,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "nether_brick_stairs"));
 		inputs.add(n++, new Input(false, "nether_bricks", "Ns"));
 		inputs.add(n++, new Input(false, "nether_wart_block"));
-		inputs.add(n++, new Input(false, "note_block"));
+		inputs.add(n++, new Input(false, "note_block"));			//  -300
 		inputs.add(n++, new Input(false, "oak_boat"));
 		inputs.add(n++, new Input(false, "oak_button"));
 		inputs.add(n++, new Input(false, "oak_door"));
@@ -355,8 +356,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "orange_carpet"));
 		inputs.add(n++, new Input(false, "orange_concrete_powder"));
 		inputs.add(n++, new Input(false, "orange_dye_from_orange_tulip", "Od"));
-		inputs.add(n++, new Input(false, "orange_dye_from_red_yellow", "Od"));
-		inputs.add(n++, new Input(false, "orange_stained_glass", "Og"));
+		inputs.add(n++, new Input(false, "orange_dye_from_red_yellow", "Od"));	//Od
+		inputs.add(n++, new Input(false, "orange_stained_glass", "Og"));		//Og-320
 		inputs.add(n++, new Input(false, "orange_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "orange_terracotta", "Ot"));
 		inputs.add(n++, new Input(false, "orange_wool", "Ow"));
@@ -375,8 +376,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "pink_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "pink_terracotta", "Kt"));
 		inputs.add(n++, new Input(false, "pink_wool", "Kw"));
-		inputs.add(n++, new Input(false, "piston", "Pi"));
-		inputs.add(n++, new Input(false, "polished_andesite"));
+		inputs.add(n++, new Input(false, "piston", "Pi"));			//Pi
+		inputs.add(n++, new Input(false, "polished_andesite"));		//  -340
 		inputs.add(n++, new Input(false, "polished_diorite"));
 		inputs.add(n++, new Input(false, "polished_granite"));
 		inputs.add(n++, new Input(false, "powered_rail", "R9"));
@@ -395,8 +396,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "purple_dye", "Pd"));
 		inputs.add(n++, new Input(false, "purple_stained_glass", "Pg"));
 		inputs.add(n++, new Input(false, "purple_stained_glass_pane"));
-		inputs.add(n++, new Input(false, "purple_terracotta", "Pt"));
-		inputs.add(n++, new Input(false, "purple_wool", "Pw"));
+		inputs.add(n++, new Input(false, "purple_terracotta", "Pt"));	//Pt
+		inputs.add(n++, new Input(false, "purple_wool", "Pw"));			//Pw-360
 		inputs.add(n++, new Input(false, "purpur_block", "Pu"));
 		inputs.add(n++, new Input(false, "purpur_pillar"));
 		inputs.add(n++, new Input(false, "purpur_slab", "Ps"));
@@ -415,8 +416,8 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "red_concrete_powder"));
 		inputs.add(n++, new Input(false, "red_dye_from_beetroot", "Rd"));
 		inputs.add(n++, new Input(false, "red_dye_from_poppy", "Rd"));
-		inputs.add(n++, new Input(false, "red_dye_from_rose_bush", "Rd"));
-		inputs.add(n++, new Input(false, "red_dye_from_tulip", "Rd"));
+		inputs.add(n++, new Input(false, "red_dye_from_rose_bush", "Rd"));	//Rd
+		inputs.add(n++, new Input(false, "red_dye_from_tulip", "Rd"));		//Rd-380
 		inputs.add(n++, new Input(false, "red_nether_bricks"));
 		inputs.add(n++, new Input(false, "red_sandstone", "Rs"));
 		inputs.add(n++, new Input(false, "red_sandstone_slab", "Ra"));
@@ -436,7 +437,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "sea_lantern"));
 		inputs.add(n++, new Input(false, "shears", "Sh"));
 		inputs.add(n++, new Input(false, "shield"));
-		inputs.add(n++, new Input(false, "shulker_box", "Xs"));
+		inputs.add(n++, new Input(false, "shulker_box", "Xs"));	//Xs-400
 		inputs.add(n++, new Input(false, "sign"));
 		inputs.add(n++, new Input(false, "slime_ball", "Sl"));
 		inputs.add(n++, new Input(false, "slime_block", "Sm"));
@@ -456,7 +457,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "spruce_wood"));
 		inputs.add(n++, new Input(false, "stick", "Sk"));
 		inputs.add(n++, new Input(false, "sticky_piston"));
-		inputs.add(n++, new Input(false, "stone_axe"));
+		inputs.add(n++, new Input(false, "stone_axe"));			//  -420
 		inputs.add(n++, new Input(false, "stone_brick_slab", "Sr"));
 		inputs.add(n++, new Input(false, "stone_brick_stairs"));
 		inputs.add(n++, new Input(false, "stone_bricks", "Sb"));
@@ -476,7 +477,7 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "turtle_helmet"));
 		inputs.add(n++, new Input(false, "wheat", "Wh"));
 		inputs.add(n++, new Input(false, "white_banner"));
-		inputs.add(n++, new Input(false, "white_bed", "Wb"));
+		inputs.add(n++, new Input(false, "white_bed", "Wb"));	//Wb-440
 		inputs.add(n++, new Input(false, "white_carpet"));
 		inputs.add(n++, new Input(false, "white_concrete_powder"));
 		inputs.add(n++, new Input(false, "white_stained_glass", "Wg"));
@@ -495,20 +496,20 @@ public class Randomize {
 		inputs.add(n++, new Input(false, "yellow_carpet"));
 		inputs.add(n++, new Input(false, "yellow_concrete_powder"));
 		inputs.add(n++, new Input(false, "yellow_dye_from_dandelion", "Yd"));
-		inputs.add(n++, new Input(false, "yellow_dye_from_sunflower", "Yd"));
-		inputs.add(n++, new Input(false, "yellow_stained_glass", "Yg"));
+		inputs.add(n++, new Input(false, "yellow_dye_from_sunflower", "Yd"));	//Yd
+		inputs.add(n++, new Input(false, "yellow_stained_glass", "Yg"));	//Yg-460
 		inputs.add(n++, new Input(false, "yellow_stained_glass_pane"));
 		inputs.add(n++, new Input(false, "yellow_terracotta", "Yt"));
 		inputs.add(n++, new Input(false, "yellow_wool", "Yw"));
 		
 		//Smelting Recipes
-		inputs.add(n++, new Input(true, "baked_potato", "Ba"));
+		inputs.add(n++, new Input(true, "baked_potato", "Ba"));			//Ba-464
 		inputs.add(n++, new Input(true, "black_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "blue_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "brick", "B0"));
 		inputs.add(n++, new Input(true, "brown_glazed_terracotta"));
-		inputs.add(n++, new Input(true, "cactus_green", "Cc"));
-		inputs.add(n++, new Input(true, "charcoal", "Ca"));
+		inputs.add(n++, new Input(true, "cactus_green", "Cc"));			//Cc
+		inputs.add(n++, new Input(true, "charcoal", "Ca"));				//Ca-470
 		inputs.add(n++, new Input(true, "coal_from_smelting", "Co"));
 		inputs.add(n++, new Input(true, "cooked_beef"));
 		inputs.add(n++, new Input(true, "cooked_chicken"));
@@ -518,7 +519,7 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "cooked_rabbit", "Rc"));
 		inputs.add(n++, new Input(true, "cooked_salmon"));
 		inputs.add(n++, new Input(true, "cracked_stone_bricks"));
-		inputs.add(n++, new Input(true, "cyan_glazed_terracotta"));
+		inputs.add(n++, new Input(true, "cyan_glazed_terracotta"));		//  -480
 		inputs.add(n++, new Input(true, "diamond_from_smelting", "Di"));
 		inputs.add(n++, new Input(true, "dried_kelp_from_smelting", "Kd"));
 		inputs.add(n++, new Input(true, "emerald_from_smelting", "Em"));
@@ -527,8 +528,8 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "gold_nugget_from_smelting", "Gn"));
 		inputs.add(n++, new Input(true, "gray_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "green_glazed_terracotta"));
-		inputs.add(n++, new Input(true, "iron_ingot", "Ii"));
-		inputs.add(n++, new Input(true, "iron_nugget_from_smelting", "In"));
+		inputs.add(n++, new Input(true, "iron_ingot", "Ii"));			//Ii
+		inputs.add(n++, new Input(true, "iron_nugget_from_smelting", "In"));	//In-490
 		inputs.add(n++, new Input(true, "lapis_from_smelting", "Ll"));
 		inputs.add(n++, new Input(true, "light_blue_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "light_gray_glazed_terracotta"));
@@ -538,7 +539,7 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "nether_brick", "Nb"));
 		inputs.add(n++, new Input(true, "orange_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "pink_glazed_terracotta"));
-		inputs.add(n++, new Input(true, "popped_chorus_fruit", "Pf"));
+		inputs.add(n++, new Input(true, "popped_chorus_fruit", "Pf"));	//Pf-500
 		inputs.add(n++, new Input(true, "purple_glazed_terracotta"));
 		inputs.add(n++, new Input(true, "quartz", "Qz"));
 		inputs.add(n++, new Input(true, "red_glazed_terracotta"));
@@ -547,17 +548,102 @@ public class Randomize {
 		inputs.add(n++, new Input(true, "stone", "St"));
 		inputs.add(n++, new Input(true, "terracotta", "Tc"));
 		inputs.add(n++, new Input(true, "white_glazed_terracotta"));
-		inputs.add(n++, new Input(true, "yellow_glazed_terracotta"));
+		inputs.add(n++, new Input(true, "yellow_glazed_terracotta"));	//  -509
 		
 		System.out.println(" DONE!");
 		
 		//Take list of outputs
 		System.out.print("Adding results to table...");
+		
+		//Complete Random
 		int x = inputs.size()+0;
 		int[] outputs = new int[x];
 		for(int i=0; i<x; i++) {
 			outputs[i] = i;
 		}
+		
+		/*
+		//Prioritize progression
+		int x = inputs.size()+0;
+		List<Integer> progression = new ArrayList<Integer>();
+		List<Integer> junk = new ArrayList<Integer>();
+		for(int i=0; i<x; i++) {
+			if(inputs.get(x).getExpression().equals("")){
+				junk.add(junk.size()+0,i+0);
+			} else {
+				progression.add(progression.size()+0,i+0);
+			}
+		}
+		//all sphere 0 checks
+		List<Integer> recipes = new ArrayList<Integer>();
+		recipes.add( 0,  5);
+		recipes.add( 1, 10);
+		recipes.add( 2, 23);
+		recipes.add( 3, 28);
+		recipes.add( 4, 37);
+		recipes.add( 5, 69);
+		recipes.add( 6, 80);
+		recipes.add( 7, 84);
+		recipes.add( 8,100);
+		recipes.add( 9,110);
+		recipes.add(10,115);
+		recipes.add(11,219);
+		recipes.add(12,224);
+		recipes.add(13,229);
+		recipes.add(14,240);
+		recipes.add(15,251);
+		recipes.add(16,254);
+		recipes.add(17,255);
+		recipes.add(18,276);
+		recipes.add(19,279);
+		recipes.add(20,306);
+		recipes.add(21,311);
+		recipes.add(22,318);
+		recipes.add(23,332);
+		recipes.add(24,333);
+		recipes.add(25,351);
+		recipes.add(26,377);
+		recipes.add(27,378);
+		recipes.add(28,379);
+		recipes.add(29,380);
+		recipes.add(30,382);
+		recipes.add(31,394);
+		recipes.add(32,412);
+		recipes.add(33,417);
+		recipes.add(34,431);
+		recipes.add(35,441);
+		recipes.add(36,458);
+		recipes.add(37,459);
+		//all remaining checks
+		n = 0;
+		List<Check> checks = new ArrayList<Check>();
+		checks.add(n++, new Check([],""));
+		
+		checks.add(n++, new Check([1,6],"Ap"));
+		checks.add(n++, new Check([0,2,7,8,9],"ApCt"));
+		checks.add(n++, new Check([3,4],"ApCtSk"));
+		checks.add(n++, new Check([17],"BlCt"));
+		checks.add(n++, new Check([19,24],"Bp"));
+		checks.add(n++, new Check([18,20,25,26,27],"BpCt"));
+		checks.add(n++, new Check([21,22],"BpCtSk"));
+		checks.add(n++, new Check([32],"Bw|Sh"));
+		checks.add(n++, new Check([33,65,288,326],"Ct"));
+		checks.add(n++, new Check([35],"CtBg"));
+		checks.add(n++, new Check([34,66,153,154],"CtGs"));
+		checks.add(n++, new Check([13],"CtIbIi"));
+		checks.add(n++, new Check([11],"CtIiRrSk"));
+		checks.add(n++, new Check([15,211,225,325,439],"CtSk"));
+		checks.add(n++, new Check([14],"CtSkSo"));
+		checks.add(n++, new Check([29],"CtSk(Bw|Sh)"));
+		checks.add(n++, new Check([30],"Ct(Ap|Bp|Dp|Op|Jp|Sp)(Bw|Sh)"));
+		checks.add(n++, new Check([36],"Tc"));
+		checks.add(n++, new Check([31,63],"Wb"));
+		checks.add(n++, new Check([12],"Wx"));
+		//complex checks
+		checks.add(n++, new Check([16],"BoCtEtGsIs(Ll|IxTo)(Ar|Sa)(Dx|EcWx)(Fs|Fc)(I5I6I7I8|BsBlBz(I5(I6|I7|I8)|I6(I7|I8)|I7I8))"));	//beacon
+		checks.add(n++, new Check([38],"(Bu|Dx|EcWx)(Fs|Fc)(Is|Bo(Ar|Sa))"));	//blaze powder
+		*/
+		
 		System.out.println(" DONE!");
 		
 		//Ceate File Pathing
@@ -586,6 +672,8 @@ public class Randomize {
 		String spoilLine = "Spoiler Log for seed: "+seed+"\n";
 		
 		Random generator = new Random(seed);
+		
+		//Complete Random
 		int length = x+0;
 		//System.out.println("length is "+length);
 		//System.out.println("length is "+inputs.size());
@@ -601,6 +689,11 @@ public class Randomize {
 			}
 			length--;
 		}
+		
+		/*
+		//Prioritize progression
+		
+		*/
 		
 		//finalize
 		writer.write(spoilLine);
