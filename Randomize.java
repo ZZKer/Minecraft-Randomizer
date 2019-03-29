@@ -1,4 +1,6 @@
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.StandardCopyOption;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
@@ -617,31 +619,6 @@ public class Randomize {
 		//all remaining checks
 		n = 0;
 		List<Check> checks = new ArrayList<Check>();
-		checks.add(n++, new Check([],""));
-		
-		checks.add(n++, new Check([1,6],"Ap"));
-		checks.add(n++, new Check([0,2,7,8,9],"ApCt"));
-		checks.add(n++, new Check([3,4],"ApCtSk"));
-		checks.add(n++, new Check([17],"BlCt"));
-		checks.add(n++, new Check([19,24],"Bp"));
-		checks.add(n++, new Check([18,20,25,26,27],"BpCt"));
-		checks.add(n++, new Check([21,22],"BpCtSk"));
-		checks.add(n++, new Check([32],"Bw|Sh"));
-		checks.add(n++, new Check([33,65,288,326],"Ct"));
-		checks.add(n++, new Check([35],"CtBg"));
-		checks.add(n++, new Check([34,66,153,154],"CtGs"));
-		checks.add(n++, new Check([13],"CtIbIi"));
-		checks.add(n++, new Check([11],"CtIiRrSk"));
-		checks.add(n++, new Check([15,211,225,325,439],"CtSk"));
-		checks.add(n++, new Check([14],"CtSkSo"));
-		checks.add(n++, new Check([29],"CtSk(Bw|Sh)"));
-		checks.add(n++, new Check([30],"Ct(Ap|Bp|Dp|Op|Jp|Sp)(Bw|Sh)"));
-		checks.add(n++, new Check([36],"Tc"));
-		checks.add(n++, new Check([31,63],"Wb"));
-		checks.add(n++, new Check([12],"Wx"));
-		//complex checks
-		checks.add(n++, new Check([16],"BoCtEtGsIs(Ll|IxTo)(Ar|Sa)(Dx|EcWx)(Fs|Fc)(I5I6I7I8|BsBlBz(I5(I6|I7|I8)|I6(I7|I8)|I7I8))"));	//beacon
-		checks.add(n++, new Check([38],"(Bu|Dx|EcWx)(Fs|Fc)(Is|Bo(Ar|Sa))"));	//blaze powder
 		*/
 		
 		System.out.println(" DONE!");
@@ -660,6 +637,21 @@ public class Randomize {
 		writer.write(mcmetawords);
 		writer.flush();
 		writer.close();
+		
+		//Quality of Life files (work in progress)
+		/*String fromFile = "./vanilla/minecraft/loot_tables/chests/spawn_bonus_chest.json";
+		String toFile = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/chests";
+		tempfile = new File(toFile);
+		tempfile.mkdirs();
+		toFile = toFile+"/spawn_bonus_chest.json";
+		Files.copy(fromFile, toFile);
+		fromFile = "./vanilla/minecraft/loot_tables/entities/wither.skeleton.json";
+		toFile = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/entities";
+		tempfile = new File(toFile);
+		tempfile.mkdirs();
+		toFile = toFile+"/wither_skeleton.json";
+		Files.copy(fromFile, toFile);
+		*/
 		System.out.println(" DONE!");
 		
 		//Randomize
