@@ -638,20 +638,24 @@ public class Randomize {
 		writer.flush();
 		writer.close();
 		
-		//Quality of Life files (work in progress)
-		/*String fromFile = "./vanilla/minecraft/loot_tables/chests/spawn_bonus_chest.json";
-		String toFile = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/chests";
-		tempfile = new File(toFile);
+		//Quality of Life files
+		String fromFileName = "./vanilla/minecraft/loot_tables/chests/spawn_bonus_chest.json";
+		String toFileName = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/chests";
+		tempfile = new File(toFileName);
 		tempfile.mkdirs();
-		toFile = toFile+"/spawn_bonus_chest.json";
-		Files.copy(fromFile, toFile);
-		fromFile = "./vanilla/minecraft/loot_tables/entities/wither.skeleton.json";
-		toFile = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/entities";
-		tempfile = new File(toFile);
+		toFileName = toFileName+"/spawn_bonus_chest.json";
+		File fromFile = new File(fromFileName);
+		File toFile = new File(toFileName);
+		Files.copy(fromFile.toPath(), toFile.toPath());
+		fromFileName = "./vanilla/minecraft/loot_tables/entities/wither_skeleton.json";
+		toFileName = "./Rand_"+Mversion+"_s"+seed+"/data/minecraft/loot_tables/entities";
+		tempfile = new File(toFileName);
 		tempfile.mkdirs();
-		toFile = toFile+"/wither_skeleton.json";
-		Files.copy(fromFile, toFile);
-		*/
+		toFileName = toFileName+"/wither_skeleton.json";
+		fromFile = new File(fromFileName);
+		toFile = new File(toFileName);
+		Files.copy(fromFile.toPath(), toFile.toPath());
+		
 		System.out.println(" DONE!");
 		
 		//Randomize
