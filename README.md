@@ -20,6 +20,7 @@ Current Features:
  - All crafting and smelting recipes in item pool
  - Seeded random to allow multiple people to play with the same randomization
  - Spoiler Log
+ - Some small quality of life changes (such as higher wither skull drop rates)
  
 Currently Working On:
  - Logic backend
