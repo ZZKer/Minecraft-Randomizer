@@ -1,5 +1,7 @@
 package rando;
 
+import java.util.List;
+import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 public class Check{
@@ -13,6 +15,14 @@ public class Check{
 	
 	public Check(int[] i, String r){
 		inputs = i;
+		requirement = "" + r;
+	}
+	
+	public Check(List<Integer> i, String r){
+		inputs = new int[i.size()];
+		for(int x=0; x<i.size(); x++) {
+			inputs[x] = i.get(x);
+		}
 		requirement = "" + r;
 	}
 	
